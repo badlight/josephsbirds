@@ -1,0 +1,654 @@
+{
+  "expectedUniqueImages": 177,
+  "albums": [
+    {
+      "id": "red-winged-blackbird",
+      "name": "Red-winged Blackbird",
+      "scientificName": "Agelaius phoeniceus",
+      "family": "Icteridae",
+      "kind": "bird",
+      "coverFile": "8V2A8760.jpg",
+      "files": [
+        "8V2A0915.jpg",
+        "8V2A8543.jpg",
+        "8V2A8760.jpg",
+        "8V2A1608-Enhanced-NR.jpg",
+        "8V2A8695.jpg",
+        "8V2A8546.jpg",
+        "8V2A8600.jpg",
+        "8V2A7811-Enhanced-NR.jpg",
+        "8V2A7917-Enhanced-NR.jpg"
+      ]
+    },
+    {
+      "id": "eastern-grey-kangaroo",
+      "name": "Eastern Grey Kangaroo",
+      "scientificName": "Macropus giganteus",
+      "family": "Macropodidae",
+      "kind": "wildlife",
+      "coverFile": "DSC05570.jpg",
+      "files": [
+        "DSC05570.jpg"
+      ],
+      "identificationNote": "Provisional identification: this close portrait appears to show an Eastern Grey Kangaroo. A wider view or the sighting location would help confirm the species."
+    },
+    {
+      "id": "black-capped-chickadee",
+      "name": "Black-capped Chickadee",
+      "scientificName": "Poecile atricapillus",
+      "family": "Paridae",
+      "kind": "bird",
+      "coverFile": "8V2A0113.jpg",
+      "files": [
+        "8V2A0113.jpg"
+      ]
+    },
+    {
+      "id": "black-crowned-night-heron",
+      "name": "Black-crowned Night-Heron",
+      "scientificName": "Nycticorax nycticorax",
+      "family": "Ardeidae",
+      "kind": "bird",
+      "coverFile": "8V2A1498-Enhanced-NR.jpg",
+      "files": [
+        "8V2A1498-Enhanced-NR.jpg",
+        "8V2A8859.jpg"
+      ]
+    },
+    {
+      "id": "blue-jay",
+      "name": "Blue Jay",
+      "scientificName": "Cyanocitta cristata",
+      "family": "Corvidae",
+      "kind": "bird",
+      "coverFile": "8V2A5431-Enhanced-NR.jpg",
+      "files": [
+        "8V2A5254-Enhanced-NR.jpg",
+        "8V2A5431-Enhanced-NR.jpg"
+      ]
+    },
+    {
+      "id": "coyote",
+      "name": "Coyote",
+      "scientificName": "Canis latrans",
+      "family": "Canidae",
+      "kind": "wildlife",
+      "coverFile": "8V2A7797-Enhanced-NR.jpg",
+      "files": [
+        "8V2A7797-Enhanced-NR.jpg"
+      ]
+    },
+    {
+      "id": "mallard",
+      "name": "Mallard",
+      "scientificName": "Anas platyrhynchos",
+      "family": "Anatidae",
+      "kind": "bird",
+      "coverFile": "8V2A8151.jpg",
+      "files": [
+        "8V2A8050-2-Enhanced-NR.jpg",
+        "8V2A8758-Enhanced-NR.jpg",
+        "8V2A8680-Enhanced-NR.jpg",
+        "8V2A0030.jpg",
+        "8V2A8151.jpg",
+        "8V2A6041.JPG",
+        "8V2A5943.jpg",
+        "8V2A6072.jpg"
+      ]
+    },
+    {
+      "id": "australasian-swamphen",
+      "name": "Australasian Swamphen",
+      "scientificName": "Porphyrio melanotus",
+      "family": "Rallidae",
+      "kind": "bird",
+      "coverFile": "8V2A8135-Enhanced-NR.jpg",
+      "files": [
+        "8V2A8135-Enhanced-NR.jpg",
+        "8V2A8618.jpg",
+        "8V2A8012-Enhanced-NR.jpg",
+        "8V2A7556.jpg",
+        "8V2A7997.jpg"
+      ]
+    },
+    {
+      "id": "rainbow-lorikeet",
+      "name": "Rainbow Lorikeet",
+      "scientificName": "Trichoglossus moluccanus",
+      "family": "Psittaculidae",
+      "kind": "bird",
+      "coverFile": "DSC04897.jpg",
+      "files": [
+        "DSC04897.jpg"
+      ]
+    },
+    {
+      "id": "northern-cardinal",
+      "name": "Northern Cardinal",
+      "scientificName": "Cardinalis cardinalis",
+      "family": "Cardinalidae",
+      "kind": "bird",
+      "coverFile": "8V2A0028-Enhanced-NR.jpg",
+      "files": [
+        "8V2A0028-Enhanced-NR.jpg",
+        "8V2A9684-Enhanced-NR.jpg",
+        "8V2A0079-Enhanced-NR.jpg",
+        "8V2A4473.jpg"
+      ]
+    },
+    {
+      "id": "muskrat",
+      "name": "Muskrat",
+      "scientificName": "Ondatra zibethicus",
+      "family": "Cricetidae",
+      "kind": "wildlife",
+      "coverFile": "8V2A6259.jpg",
+      "files": [
+        "8V2A0353.jpg",
+        "8V2A6259.jpg"
+      ]
+    },
+    {
+      "id": "white-breasted-nuthatch",
+      "name": "White-breasted Nuthatch",
+      "scientificName": "Sitta carolinensis",
+      "family": "Sittidae",
+      "kind": "bird",
+      "coverFile": "8V2A0749-Enhanced-NR.jpg",
+      "files": [
+        "8V2A0790-Enhanced-NR.jpg",
+        "8V2A0749-Enhanced-NR.jpg"
+      ]
+    },
+    {
+      "id": "northern-shoveler",
+      "name": "Northern Shoveler",
+      "scientificName": "Spatula clypeata",
+      "family": "Anatidae",
+      "kind": "bird",
+      "coverFile": "8V2A1644.jpg",
+      "files": [
+        "8V2A1664-Enhanced-NR.jpg",
+        "8V2A1644.jpg",
+        "8V2A1659.jpg"
+      ]
+    },
+    {
+      "id": "hooded-merganser",
+      "name": "Hooded Merganser",
+      "scientificName": "Lophodytes cucullatus",
+      "family": "Anatidae",
+      "kind": "bird",
+      "coverFile": "8V2A7885-Enhanced-NR.jpg",
+      "files": [
+        "8V2A2978.jpg",
+        "8V2A1416-Enhanced-NR.jpg",
+        "8V2A2909-Enhanced-NR.jpg",
+        "8V2A2928-Enhanced-NR.jpg",
+        "8V2A2177-Enhanced-NR.jpg",
+        "8V2A3062-Enhanced-NR.jpg",
+        "8V2A9039.jpg",
+        "8V2A7885-Enhanced-NR.jpg",
+        "8V2A9530.jpg",
+        "8V2A9532-Enhanced-NR.jpg",
+        "8V2A9547.jpg",
+        "8V2A2771.jpg",
+        "8V2A1874.jpg",
+        "8V2A5475-Enhanced-NR.jpg"
+      ]
+    },
+    {
+      "id": "north-american-beaver",
+      "name": "North American Beaver",
+      "scientificName": "Castor canadensis",
+      "family": "Castoridae",
+      "kind": "wildlife",
+      "coverFile": "8V2A6498.jpg",
+      "files": [
+        "8V2A6498.jpg"
+      ]
+    },
+    {
+      "id": "song-sparrow",
+      "name": "Song Sparrow",
+      "scientificName": "Melospiza melodia",
+      "family": "Passerellidae",
+      "kind": "bird",
+      "coverFile": "8V2A8004-Enhanced-NR.jpg",
+      "files": [
+        "8V2A7991-Enhanced-NR.jpg",
+        "8V2A8004-Enhanced-NR.jpg"
+      ]
+    },
+    {
+      "id": "common-goldeneye",
+      "name": "Common Goldeneye",
+      "scientificName": "Bucephala clangula",
+      "family": "Anatidae",
+      "kind": "bird",
+      "coverFile": "8V2A7026.jpg",
+      "files": [
+        "8V2A8400-Enhanced-NR.jpg",
+        "8V2A3135-Enhanced-NR.jpg",
+        "8V2A5999.jpg",
+        "8V2A2428-Enhanced-NR.jpg",
+        "8V2A3721-Enhanced-NR.jpg",
+        "8V2A4187-Enhanced-NR.jpg",
+        "8V2A8612-Enhanced-NR.jpg",
+        "8V2A8806-Enhanced-NR.jpg",
+        "8V2A8960.jpg",
+        "8V2A9398-Enhanced-NR.jpg",
+        "8V2A0826-Enhanced-NR.jpg",
+        "8V2A1065.jpg",
+        "8V2A1253-Enhanced-NR.jpg",
+        "8V2A2432-Enhanced-NR.jpg",
+        "8V2A2935.jpg",
+        "8V2A3490-Enhanced-NR.jpg",
+        "8V2A3729-Enhanced-NR.jpg",
+        "8V2A5922-Enhanced-NR.jpg",
+        "8V2A7026.jpg",
+        "8V2A7269.jpg",
+        "8V2A7538-Enhanced-NR.jpg",
+        "8V2A8784-Enhanced-NR.jpg",
+        "8V2A2795.jpg",
+        "8V2A3378-Enhanced-NR.jpg",
+        "8V2A4097-Enhanced-NR.jpg",
+        "8V2A7245.jpg",
+        "8V2A7359.jpg",
+        "8V2A7559-Enhanced-NR.jpg",
+        "8V2A8974.jpg",
+        "8V2A7606-Enhanced-NR.jpg",
+        "8V2A8644.jpg",
+        "8V2A8840-Enhanced-NR.jpg",
+        "8V2A9255.jpg",
+        "8V2A9448.jpg",
+        "8V2A0957-Enhanced-NR.jpg",
+        "8V2A4363-Enhanced-NR.jpg",
+        "8V2A4805-Enhanced-NR.jpg",
+        "8V2A5508.jpg",
+        "8V2A8163.jpg",
+        "8V2A3816-Enhanced-NR.jpg",
+        "8V2A7388-Enhanced-NR.jpg",
+        "8V2A9373-Enhanced-NR.jpg",
+        "8V2A3711-Enhanced-NR.jpg",
+        "8V2A5723-Enhanced-NR.jpg",
+        "8V2A8178.jpg",
+        "8V2A8324-Enhanced-NR.jpg",
+        "8V2A8344.jpg",
+        "8V2A1355-Enhanced-NR.jpg"
+      ]
+    },
+    {
+      "id": "wood-duck",
+      "name": "Wood Duck",
+      "scientificName": "Aix sponsa",
+      "family": "Anatidae",
+      "kind": "bird",
+      "coverFile": "8V2A9431.jpg",
+      "files": [
+        "8V2A9413.jpg",
+        "8V2A9431.jpg"
+      ]
+    },
+    {
+      "id": "downy-woodpecker",
+      "name": "Downy Woodpecker",
+      "scientificName": "Dryobates pubescens",
+      "family": "Picidae",
+      "kind": "bird",
+      "coverFile": "8V2A9595-Enhanced-NR.jpg",
+      "files": [
+        "8V2A9595-Enhanced-NR.jpg"
+      ]
+    },
+    {
+      "id": "ring-billed-gull",
+      "name": "Ring-billed Gull",
+      "scientificName": "Larus delawarensis",
+      "family": "Laridae",
+      "kind": "bird",
+      "coverFile": "8V2A3046-Enhanced-NR.jpg",
+      "files": [
+        "8V2A2615.jpg",
+        "8V2A2527.jpg",
+        "8V2A3046-Enhanced-NR.jpg"
+      ]
+    },
+    {
+      "id": "wild-turkey",
+      "name": "Wild Turkey",
+      "scientificName": "Meleagris gallopavo",
+      "family": "Phasianidae",
+      "kind": "bird",
+      "coverFile": "8V2A5802.jpg",
+      "files": [
+        "8V2A5802.jpg"
+      ]
+    },
+    {
+      "id": "snowy-owl",
+      "name": "Snowy Owl",
+      "scientificName": "Bubo scandiacus",
+      "family": "Strigidae",
+      "kind": "bird",
+      "coverFile": "8V2A9051.jpg",
+      "files": [
+        "8V2A6451.jpg",
+        "8V2A7484-Enhanced-NR.jpg",
+        "8V2A7496-Enhanced-NR.jpg",
+        "8V2A7710-Enhanced-NR.jpg",
+        "8V2A7889.jpg",
+        "8V2A9165-Enhanced-NR.jpg",
+        "8V2A6541.jpg",
+        "8V2A9051.jpg",
+        "8V2A7302-Enhanced-NR.jpg",
+        "8V2A6433.jpg",
+        "8V2A8285.jpg",
+        "8V2A9130.jpg"
+      ]
+    },
+    {
+      "id": "black-swan",
+      "name": "Black Swan",
+      "scientificName": "Cygnus atratus",
+      "family": "Anatidae",
+      "kind": "bird",
+      "coverFile": "8V2A8003.jpg",
+      "files": [
+        "8V2A8003.jpg"
+      ]
+    },
+    {
+      "id": "little-pied-cormorant",
+      "name": "Little Pied Cormorant",
+      "scientificName": "Microcarbo melanoleucos",
+      "family": "Phalacrocoracidae",
+      "kind": "bird",
+      "coverFile": "8V2A8268.jpg",
+      "files": [
+        "8V2A8268.jpg"
+      ]
+    },
+    {
+      "id": "eastern-kingbird",
+      "name": "Eastern Kingbird",
+      "scientificName": "Tyrannus tyrannus",
+      "family": "Tyrannidae",
+      "kind": "bird",
+      "coverFile": "8V2A8550.jpg",
+      "files": [
+        "8V2A8550.jpg",
+        "8V2A8452.jpg"
+      ]
+    },
+    {
+      "id": "little-corella",
+      "name": "Little Corella",
+      "scientificName": "Cacatua sanguinea",
+      "family": "Cacatuidae",
+      "kind": "bird",
+      "coverFile": "8V2A0119.jpg",
+      "files": [
+        "8V2A0119.jpg",
+        "8V2A8740.jpg"
+      ]
+    },
+    {
+      "id": "palm-warbler",
+      "name": "Palm Warbler",
+      "scientificName": "Setophaga palmarum",
+      "family": "Parulidae",
+      "kind": "bird",
+      "coverFile": "8V2A2706.jpg",
+      "files": [
+        "8V2A2706.jpg"
+      ]
+    },
+    {
+      "id": "common-merganser",
+      "name": "Common Merganser",
+      "scientificName": "Mergus merganser",
+      "family": "Anatidae",
+      "kind": "bird",
+      "coverFile": "8V2A3062.jpg",
+      "files": [
+        "8V2A6068-Enhanced-NR.jpg",
+        "8V2A6006-Enhanced-NR.jpg",
+        "8V2A6121-Enhanced-NR.jpg",
+        "8V2A2818.jpg",
+        "8V2A3062.jpg",
+        "8V2A6038.jpg",
+        "8V2A7839-Enhanced-NR.jpg",
+        "8V2A9577.jpg",
+        "8V2A9757.jpg",
+        "8V2A9502-Enhanced-NR.jpg",
+        "8V2A0475.jpg"
+      ]
+    },
+    {
+      "id": "great-blue-heron",
+      "name": "Great Blue Heron",
+      "scientificName": "Ardea herodias",
+      "family": "Ardeidae",
+      "kind": "bird",
+      "coverFile": "8V2A8671.jpg",
+      "files": [
+        "8V2A8483.jpg",
+        "8V2A8671.jpg"
+      ]
+    },
+    {
+      "id": "cooper-s-hawk",
+      "name": "Cooper's Hawk",
+      "scientificName": "Astur cooperii",
+      "family": "Accipitridae",
+      "kind": "bird",
+      "coverFile": "8V2A0059.jpg",
+      "files": [
+        "8V2A0059.jpg",
+        "8V2A9954-Enhanced-NR.jpg"
+      ],
+      "identificationNote": "Provisional identification: the immature plumage appears consistent with Cooper's Hawk; Sharp-shinned Hawk is a possible alternative."
+    },
+    {
+      "id": "long-billed-corella",
+      "name": "Long-billed Corella",
+      "scientificName": "Cacatua tenuirostris",
+      "family": "Cacatuidae",
+      "kind": "bird",
+      "coverFile": "8V2A9724.jpg",
+      "files": [
+        "8V2A9724.jpg",
+        "8V2A8482-Enhanced-NR.jpg"
+      ]
+    },
+    {
+      "id": "osprey",
+      "name": "Osprey",
+      "scientificName": "Pandion haliaetus",
+      "family": "Pandionidae",
+      "kind": "bird",
+      "coverFile": "8V2A1270.jpg",
+      "files": [
+        "8V2A0878.jpg",
+        "8V2A1270.jpg",
+        "8V2A0989-Enhanced-NR.jpg",
+        "8V2A0751.jpg"
+      ]
+    },
+    {
+      "id": "double-crested-cormorant",
+      "name": "Double-crested Cormorant",
+      "scientificName": "Nannopterum auritum",
+      "family": "Phalacrocoracidae",
+      "kind": "bird",
+      "coverFile": "8V2A3040.jpg",
+      "files": [
+        "8V2A3040.jpg",
+        "8V2A9543.jpg",
+        "8V2A1714.jpg"
+      ]
+    },
+    {
+      "id": "red-tailed-hawk",
+      "name": "Red-tailed Hawk",
+      "scientificName": "Buteo jamaicensis",
+      "family": "Accipitridae",
+      "kind": "bird",
+      "coverFile": "8V2A6808.jpg",
+      "files": [
+        "8V2A6784-Enhanced-NR.jpg",
+        "8V2A6808.jpg",
+        "8V2A6845.jpg"
+      ]
+    },
+    {
+      "id": "northern-pintail",
+      "name": "Northern Pintail",
+      "scientificName": "Anas acuta",
+      "family": "Anatidae",
+      "kind": "bird",
+      "coverFile": "8V2A8127.jpg",
+      "files": [
+        "8V2A7935.jpg",
+        "8V2A8037.jpg",
+        "8V2A8119.jpg",
+        "8V2A8127.jpg",
+        "8V2A8208-Enhanced-NR.jpg"
+      ]
+    },
+    {
+      "id": "sulphur-crested-cockatoo",
+      "name": "Sulphur-crested Cockatoo",
+      "scientificName": "Cacatua galerita",
+      "family": "Cacatuidae",
+      "kind": "bird",
+      "coverFile": "8V2A8058-Enhanced-NR.jpg",
+      "files": [
+        "8V2A8058-Enhanced-NR.jpg",
+        "DSC05334.jpg"
+      ]
+    },
+    {
+      "id": "merlin",
+      "name": "Merlin",
+      "scientificName": "Falco columbarius",
+      "family": "Falconidae",
+      "kind": "bird",
+      "coverFile": "8V2A0103.jpg",
+      "files": [
+        "8V2A0103.jpg",
+        "8V2A2475.jpg"
+      ]
+    },
+    {
+      "id": "white-throated-sparrow",
+      "name": "White-throated Sparrow",
+      "scientificName": "Zonotrichia albicollis",
+      "family": "Passerellidae",
+      "kind": "bird",
+      "coverFile": "8V2A5971.JPG",
+      "files": [
+        "8V2A5971.JPG"
+      ]
+    },
+    {
+      "id": "canada-goose",
+      "name": "Canada Goose",
+      "scientificName": "Branta canadensis",
+      "family": "Anatidae",
+      "kind": "bird",
+      "coverFile": "8V2A4435-Enhanced-NR.jpg",
+      "files": [
+        "8V2A4435-Enhanced-NR.jpg",
+        "8V2A8415.jpg",
+        "8V2A9345.jpg"
+      ]
+    },
+    {
+      "id": "common-tern",
+      "name": "Common Tern",
+      "scientificName": "Sterna hirundo",
+      "family": "Laridae",
+      "kind": "bird",
+      "coverFile": "8V2A8475.jpg",
+      "files": [
+        "8V2A8475.jpg"
+      ]
+    },
+    {
+      "id": "australian-wood-duck",
+      "name": "Australian Wood Duck",
+      "scientificName": "Chenonetta jubata",
+      "family": "Anatidae",
+      "kind": "bird",
+      "coverFile": "8V2A8296-Enhanced-NR.jpg",
+      "files": [
+        "8V2A8296-Enhanced-NR.jpg"
+      ],
+      "identificationNote": "Provisional identification: the duckling appears to be an Australian Wood Duck. The adult bird or sighting location would help confirm it."
+    },
+    {
+      "id": "american-robin",
+      "name": "American Robin",
+      "scientificName": "Turdus migratorius",
+      "family": "Turdidae",
+      "kind": "bird",
+      "coverFile": "8V2A5926.JPG",
+      "files": [
+        "8V2A5926.JPG"
+      ]
+    },
+    {
+      "id": "australian-white-ibis",
+      "name": "Australian White Ibis",
+      "scientificName": "Threskiornis molucca",
+      "family": "Threskiornithidae",
+      "kind": "bird",
+      "coverFile": "DSC04936.jpg",
+      "files": [
+        "DSC04936.jpg"
+      ]
+    },
+    {
+      "id": "little-black-cormorant",
+      "name": "Little Black Cormorant",
+      "scientificName": "Phalacrocorax sulcirostris",
+      "family": "Phalacrocoracidae",
+      "kind": "bird",
+      "coverFile": "DSC05137-Enhanced-NR.jpg",
+      "files": [
+        "DSC05137-Enhanced-NR.jpg"
+      ]
+    }
+  ],
+  "photoNotes": {
+    "8V2A2475.jpg": "Provisional identification: the flight photograph appears consistent with a Merlin. The plumage and tail bands are visible, but the sighting location would help confirm it."
+  },
+  "captions": {
+    "8V2A9413.jpg": "A female Wood Duck with ducklings.",
+    "8V2A9431.jpg": "A young Wood Duck.",
+    "8V2A7935.jpg": "A male Northern Pintail.",
+    "8V2A8037.jpg": "A Northern Pintail with a Mallard in the background.",
+    "8V2A8119.jpg": "A Northern Pintail with a Mallard in the background.",
+    "8V2A8208-Enhanced-NR.jpg": "Northern Pintails and Mallards together on the water.",
+    "8V2A2818.jpg": "A young Common Merganser.",
+    "8V2A3062.jpg": "A Common Merganser catching a fish.",
+    "8V2A0475.jpg": "A female Common Merganser resting beside her ducklings.",
+    "8V2A8163.jpg": "A Common Goldeneye in immature male plumage.",
+    "8V2A8178.jpg": "A Common Goldeneye in immature male plumage.",
+    "8V2A8296-Enhanced-NR.jpg": "An Australian Wood Duck duckling.",
+    "8V2A8475.jpg": "A Common Tern carrying a fish.",
+    "DSC05570.jpg": "A kangaroo portrait."
+  },
+  "identificationReferences": [
+    "https://www.allaboutbirds.org/guide/Common_Goldeneye/id",
+    "https://www.allaboutbirds.org/guide/Hooded_Merganser/id",
+    "https://www.allaboutbirds.org/guide/Common_Merganser/id",
+    "https://www.allaboutbirds.org/guide/Merlin/id",
+    "https://www.allaboutbirds.org/guide/Palm_Warbler/id",
+    "https://www.allaboutbirds.org/guide/Ring-billed_Gull/id",
+    "https://birdlife.org.au/bird-profiles/little-black-cormorant/",
+    "https://australian.museum/learn/animals/birds/little-corella/"
+  ]
+}

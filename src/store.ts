@@ -1,5 +1,5 @@
 import { nameKey,mergeChanges,validateCollection } from "./collection";
-import { setPhotoPreviews,type Asset,type Bird,type BirdPhoto,type Catalogue,type Change,type Collection } from "./models";
+import { setPhotoPreviews,type Asset,type Bird,type BirdPhoto,type Catalogue,type Change,type Collection,type PhotoDetails } from "./models";
 import { publishChanges } from "./publisher";
 
 export const manageMode = new URL(window.location.href).searchParams.get("manage") === "1";
@@ -99,6 +99,20 @@ export async function stageCover(birdId: string,photoId: string) {
     if(!change.bird.photos.some(photo=>photo.id===photoId)) throw Error("Choose a photograph from this bird's album.");
     change.bird.coverPhotoId=photoId;
     const next=[...changes.filter(item=>item.bird.id!==birdId),change];mergeChanges(collection!,next);await writeDraft(next);
+  });
+}
+export async function stagePhotoDetails(birdId:string,photoId:string,details:PhotoDetails) {
+  return serialize(async()=>{
+    if(!manageMode) throw Error("Open the photo manager to edit photo details.");
+    await loadCatalogue();const change=editingBird(birdId);
+    const photo=change.bird.photos.find(item=>item.id===photoId);
+    if(!photo) throw Error("That photograph could not be found.");
+    photo.capturedOn=details.capturedOn;
+    photo.capturedTime=details.capturedTime?.trim()||"";
+    photo.captureOffset=details.captureOffset?.trim()||"";
+    photo.location=details.location.trim();photo.caption=details.caption.trim();
+    const next=[...changes.filter(item=>item.bird.id!==birdId),change];
+    mergeChanges(collection!,next);await writeDraft(next);
   });
 }
 export async function publishDraft(token: string,onProgress: (message:string)=>void) {

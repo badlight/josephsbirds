@@ -32,6 +32,33 @@ test("malformed dates, cover ownership, and external photo paths are rejected",(
   }
 });
 
+test("each photo keeps its own date, time, location, and immutable image",()=>{
+  const base=bird();base.photos.push(photo("photo-2"));
+  const local=structuredClone(base);
+  Object.assign(local.photos[0],{capturedOn:"2024-06-16",capturedTime:"08:39:15",captureOffset:"-05:00",location:"A named wetland"});
+  const merged=mergeChanges(collection([base]),[{base,bird:local,assets:[]}]);
+  assert.equal(merged.birds[0].photos[0].capturedOn,"2024-06-16");
+  assert.equal(merged.birds[0].photos[0].capturedTime,"08:39:15");
+  assert.equal(merged.birds[0].photos[0].image,base.photos[0].image);
+  assert.deepEqual(merged.birds[0].photos[1],base.photos[1]);
+});
+
+test("detail edits preserve independent remote edits but reject same-field conflicts",()=>{
+  const base=bird(),local=structuredClone(base),remote=structuredClone(base);
+  local.photos[0].location="My wetland";remote.photos[0].caption="A remote caption";
+  const merged=mergeChanges(collection([remote]),[{base,bird:local,assets:[]}]);
+  assert.equal(merged.birds[0].photos[0].location,"My wetland");
+  assert.equal(merged.birds[0].photos[0].caption,"A remote caption");
+  remote.photos[0].location="A different wetland";
+  assert.throws(()=>mergeChanges(collection([remote]),[{base,bird:local,assets:[]}]),/location changed/);
+});
+
+test("capture times and wildlife kinds are validated without requiring GPS",()=>{
+  const valid=bird();valid.kind="wildlife";valid.photos[0].capturedTime="23:59:59";valid.photos[0].captureOffset="-05:00";
+  assert.doesNotThrow(()=>validateCollection(collection([valid])));
+  for(const mutate of [b=>b.photos[0].capturedTime="24:00:00",b=>b.photos[0].capturedTime="12:90:00",b=>b.photos[0].captureOffset="bad",b=>b.kind="unknown"]){const invalid=structuredClone(valid);mutate(invalid);assert.throws(()=>validateCollection(collection([invalid])));}
+});
+
 function mockGitHub(remote,conflict=false) {
   const calls=[];
   const fetcher=async(url,init)=>{

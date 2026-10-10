@@ -1,16 +1,19 @@
 export type BirdPhoto = {
   id: string; birdId: string; width: number; height: number;
   originalName: string; capturedOn: string; location: string; caption: string;
+  capturedTime?: string; captureOffset?: string; identificationNote?: string;
   createdAt: string; image: string; thumbnail: string;
 };
 export type Bird = {
   id: string; name: string; scientificName: string; family: string;
   coverPhotoId: string | null; createdAt: string; photos: BirdPhoto[];
+  kind?: "bird" | "wildlife"; identificationNote?: string;
 };
 export type Collection = { version: 1; birds: Bird[] };
 export type Catalogue = Collection & { canManage: boolean; draftCount: number };
 export type Asset = { path: string; blob: Blob };
 export type Change = { bird: Bird; base: Bird | null; assets: Asset[] };
+export type PhotoDetails = Pick<BirdPhoto,"capturedOn" | "capturedTime" | "captureOffset" | "location" | "caption">;
 
 const previews = new Map<string,string>();
 export function setPhotoPreviews(assets: Asset[]) {

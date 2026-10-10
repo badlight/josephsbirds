@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState, type FormEvent, type PointerEvent } from "react";
-import { Feather, Search, Plus, Camera, MapPin, CalendarDays, X, Upload, ImagePlus } from "lucide-react";
-import { photoUrl, type Bird, type Catalogue } from "./models";
-import { loadCatalogue, stagePhotos, stageCover, publishDraft, discardDraft, manageMode } from "./store";
+import { Feather, Search, Plus, Camera, MapPin, CalendarDays, X, Upload, ImagePlus, Clock3 } from "lucide-react";
+import { photoUrl, type Bird, type BirdPhoto, type Catalogue } from "./models";
+import { loadCatalogue, stagePhotos, stageCover, stagePhotoDetails, publishDraft, discardDraft, manageMode } from "./store";
 
 function setAlbumURL(birdId = "", photoId = "", push = false) {
   const url = new URL(window.location.href);
@@ -46,7 +46,7 @@ function DiscardDialog({onClose,onDiscard}:{onClose:()=>void;onDiscard:()=>Promi
   const dialog=useRef<HTMLDialogElement>(null);const [busy,setBusy]=useState(false),[error,setError]=useState("");
   useEffect(()=>{if(!dialog.current?.open)dialog.current?.showModal();},[]);
   return <dialog ref={dialog} className="upload-dialog" aria-labelledby="discard-title" onCancel={event=>{event.preventDefault();if(!busy)onClose();}}>
-    <h2 id="discard-title">Discard this draft?</h2><p>This removes unpublished photographs and cover changes from this browser. Published photographs stay in the gallery.</p><p className="form-error" role="alert">{error}</p><div className="form-actions"><button disabled={busy} onClick={onClose}>Keep draft</button><button disabled={busy} onClick={async()=>{setBusy(true);try{await onDiscard();}catch(err){setError(err instanceof Error?err.message:"The draft could not be discarded.");setBusy(false);}}}>{busy?"Discarding…":"Discard draft"}</button></div>
+    <h2 id="discard-title">Discard this draft?</h2><p>This removes unpublished photographs and detail changes from this browser. Published photographs stay in the gallery.</p><p className="form-error" role="alert">{error}</p><div className="form-actions"><button disabled={busy} onClick={onClose}>Keep draft</button><button disabled={busy} onClick={async()=>{setBusy(true);try{await onDiscard();}catch(err){setError(err instanceof Error?err.message:"The draft could not be discarded.");setBusy(false);}}}>{busy?"Discarding…":"Discard draft"}</button></div>
   </dialog>;
 }
 
@@ -54,6 +54,7 @@ export default function BirdGallery() {
   const [catalogue,setCatalogue] = useState<Catalogue>({version:1,birds:[],canManage:manageMode,draftCount:0});
   const [loading,setLoading] = useState(true), [error,setError] = useState("");
   const [query,setQuery] = useState(""), [family,setFamily] = useState(""), [sort,setSort] = useState("name");
+  const [kind,setKind] = useState("");
   const [selection,setSelection] = useState({birdId:"",photoId:""});
   const [adding,setAdding] = useState<string|null>(null);
   const reload = useCallback(async () => {
@@ -71,24 +72,26 @@ export default function BirdGallery() {
   };
   const close = () => { setSelection({birdId:"",photoId:""}); setAlbumURL(); };
   const totalPhotos = catalogue.birds.reduce((sum,bird) => sum + bird.photos.length,0);
-  const families = [...new Set(catalogue.birds.map(bird => bird.family).filter(Boolean))].sort();
-  const visible = catalogue.birds.filter(bird => (!family || bird.family === family) && [bird.name,bird.scientificName,bird.family].some(value => value.toLocaleLowerCase().includes(query.toLocaleLowerCase().trim()))).sort((a,b) => sort === "recent" ? b.createdAt.localeCompare(a.createdAt) : a.name.localeCompare(b.name));
+  const birdAlbums = catalogue.birds.filter(bird=>bird.kind!=="wildlife").length;
+  const wildlifeAlbums = catalogue.birds.length-birdAlbums;
+  const families = [...new Set(catalogue.birds.filter(bird=>!kind || (bird.kind||"bird")===kind).map(bird => bird.family).filter(Boolean))].sort();
+  const visible = catalogue.birds.filter(bird => (!kind || (bird.kind||"bird")===kind) && (!family || bird.family === family) && [bird.name,bird.scientificName,bird.family].some(value => value.toLocaleLowerCase().includes(query.toLocaleLowerCase().trim()))).sort((a,b) => sort === "recent" ? b.createdAt.localeCompare(a.createdAt) : a.name.localeCompare(b.name));
   const selectedBird = catalogue.birds.find(bird => bird.id === selection.birdId);
 
   return <>
     <a className="skip-link" href="#collection">Skip to photographs</a>
     <header className="site-header"><div className="header-inner">
-      <div className="brand"><span className="eyebrow"><Feather size={17} aria-hidden="true"/> Bird photography</span><h1><a href="./">Joseph&apos;s Birds</a></h1></div>
-      <div className="header-actions"><p>{loading ? "Loading collection…" : `${catalogue.birds.length} species · ${totalPhotos} ${totalPhotos === 1 ? "photograph" : "photographs"}`}</p>
+      <div className="brand"><span className="eyebrow"><Feather size={17} aria-hidden="true"/> Bird &amp; wildlife photography</span><h1><a href="./">Joseph&apos;s Birds</a></h1></div>
+      <div className="header-actions"><p>{loading ? "Loading collection…" : `${catalogue.birds.length} albums · ${totalPhotos} ${totalPhotos === 1 ? "photograph" : "photographs"}`}</p>
         {catalogue.canManage && <button className="primary" onClick={() => setAdding("new")}><Plus size={18} aria-hidden="true"/> Add a bird</button>}
       </div>
     </div></header>
     <main id="collection">
       {catalogue.canManage && <DraftPanel count={catalogue.draftCount} onReload={reload}/>}
-      {catalogue.birds.length > 0 && <section className="collection-controls" aria-label="Browse bird photographs">
+      {catalogue.birds.length > 0 && <section className="collection-controls" aria-label="Browse wildlife photographs">
         <label className="search-field"><span className="sr-only">Search birds</span><Search size={19} aria-hidden="true"/><input type="search" value={query} onChange={event => setQuery(event.target.value)} placeholder="Search common name, scientific name, or family…"/></label>
         {families.length > 0 && <label className="select-field"><span className="sr-only">Bird family</span><select value={family} onChange={event => setFamily(event.target.value)}><option value="">All families</option>{families.map(item => <option key={item}>{item}</option>)}</select></label>}
-        <label className="select-field"><span className="sr-only">Sort birds</span><select value={sort} onChange={event => setSort(event.target.value)}><option value="name">Name, A–Z</option><option value="recent">Recently added</option></select></label>
+        <label className="select-field"><span className="sr-only">Sort albums</span><select value={sort} onChange={event => setSort(event.target.value)}><option value="name">Name, A–Z</option><option value="recent">Recently added</option></select></label>
       </section>}
       {error && <div className="message error" role="alert"><p>{error}</p><button onClick={() => reload().catch(err => setError(err.message))}>Try again</button></div>}
       {loading && <div className="collection-loading" role="status"><Feather size={30} aria-hidden="true"/><p>Loading photographs…</p></div>}
@@ -99,16 +102,17 @@ export default function BirdGallery() {
         </div>
       </section>}
       {!loading && catalogue.birds.length > 0 && <>
-        <div className="results-line"><span>{visible.length} species</span>{(query || family) && <button className="text-button" onClick={() => {setQuery("");setFamily("");}}>Clear filters</button>}</div>
-        <section className="bird-grid" aria-label="Photographed birds">{visible.map(bird => {
+        {wildlifeAlbums>0 && <div className="collection-kinds" role="group" aria-label="Type of wildlife">{[["","All wildlife",catalogue.birds.length],["bird","Birds",birdAlbums],["wildlife","Other wildlife",wildlifeAlbums]].map(([value,label,count])=><button key={value} aria-pressed={kind===value} className={kind===value?"active":""} onClick={()=>{setKind(String(value));setFamily("");}}>{label} <span>{count}</span></button>)}</div>}
+        <div className="results-line"><span>{visible.length} album{visible.length===1?"":"s"} · {visible.reduce((sum,bird)=>sum+bird.photos.length,0)} photographs</span>{(query || family || kind) && <button className="text-button" onClick={() => {setQuery("");setFamily("");setKind("");}}>Clear filters</button>}</div>
+        <section className="bird-grid" aria-label="Photographed wildlife">{visible.map(bird => {
           const cover = coverPhoto(bird);
           return <article className="bird-card" key={bird.id}><button className="bird-open" onClick={() => open(bird)} aria-label={`View ${bird.name} photographs`}>
             <div className="bird-picture">{cover ? <img src={photoUrl(cover,true)} alt={bird.name} loading="lazy" decoding="async"/> : <Feather className="missing-photo" size={50} aria-hidden="true"/>}
               <div className="bird-overlay">{bird.family && <span className="bird-family">{bird.family}</span>}<span className="overlay-name">{bird.name}</span>{bird.scientificName && <span className="overlay-scientific">{bird.scientificName}</span>}<span className="view-album">View photographs</span></div>
-            </div><div className="bird-caption"><h2>{bird.name}</h2><span>{bird.photos.length} {bird.photos.length === 1 ? "photo" : "photos"}</span>{bird.scientificName && <p>{bird.scientificName}</p>}</div>
+            </div><div className="bird-caption"><h2>{bird.name}</h2><span>{bird.photos.length} {bird.photos.length === 1 ? "photo" : "photos"}</span>{bird.scientificName && <p>{bird.scientificName}</p>}{bird.identificationNote && <small className="provisional-label">Provisional identification</small>}</div>
           </button></article>;
         })}</section>
-        {!visible.length && <div className="no-results"><Feather size={30} aria-hidden="true"/><h2>No birds match those filters.</h2><button onClick={() => {setQuery("");setFamily("");}}>Clear filters</button></div>}
+        {!visible.length && <div className="no-results"><Feather size={30} aria-hidden="true"/><h2>No albums match those filters.</h2><button onClick={() => {setQuery("");setFamily("");setKind("");}}>Clear filters</button></div>}
       </>}
     </main>
     <footer className="site-footer"><Feather size={16} aria-hidden="true"/><span>Photographs by Joseph Botros</span><a href={catalogue.canManage ? "./" : "./?manage=1"}>{catalogue.canManage ? "View published gallery" : "Manage collection"}</a></footer>
@@ -122,7 +126,7 @@ function PhotoAlbum({bird,selectedId,canManage,onClose,onSelect,onAdd,onReload}:
   const index = Math.max(0,bird.photos.findIndex(photo => photo.id === selectedId)), photo = bird.photos[index];
   const [zoom,setZoom] = useState(1), [pan,setPan] = useState({x:0,y:0}), [fullWindow,setFullWindow] = useState(false), [nativeFullscreen,setNativeFullscreen] = useState(false);
   const [loadedId,setLoadedId] = useState(""), [failedId,setFailedId] = useState(""), [notice,setNotice] = useState("");
-  const [coverBusy,setCoverBusy] = useState(false);
+  const [coverBusy,setCoverBusy] = useState(false),[editing,setEditing]=useState(false);
   const drag = useRef<{id:number;x:number;y:number;panX:number;panY:number}|null>(null);
   const move = (direction:number) => {const next=bird.photos[index+direction];if(next)onSelect(next.id);};
   const close = () => {if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});onClose();};
@@ -155,7 +159,7 @@ function PhotoAlbum({bird,selectedId,canManage,onClose,onSelect,onAdd,onReload}:
     if(!photo)return;setCoverBusy(true);
     try{await stageCover(bird.id,photo.id);await onReload();setNotice("Cover saved to your draft. Publish the draft to update the gallery.");}catch(error){setNotice(error instanceof Error?error.message:"The cover could not be updated.");}finally{setCoverBusy(false);}
   };
-  return <dialog ref={dialog} className={`album-dialog${fullWindow?" viewer-expanded":""}`} aria-labelledby="album-title" onCancel={event=>{event.preventDefault();if(fullWindow)setFullWindow(false);else close();}} onClick={event=>{if(event.target===event.currentTarget)close();}} onKeyDown={event=>{if(event.key==="ArrowLeft"){event.preventDefault();move(-1);}if(event.key==="ArrowRight"){event.preventDefault();move(1);}}}>
+  return <><dialog ref={dialog} className={`album-dialog${fullWindow?" viewer-expanded":""}`} aria-labelledby="album-title" onCancel={event=>{event.preventDefault();if(fullWindow)setFullWindow(false);else close();}} onClick={event=>{if(event.target===event.currentTarget)close();}} onKeyDown={event=>{if((event.target as HTMLElement).closest("input,textarea,select"))return;if(event.key==="ArrowLeft"){event.preventDefault();move(-1);}if(event.key==="ArrowRight"){event.preventDefault();move(1);}}}>
     <div className="viewer-shell" ref={viewer}>
       <button className="viewer-close icon-button" aria-label="Close album" onClick={close}><X size={22}/></button>
       <div ref={viewport} className={`image-viewport${zoom>1?" zoomed":""}`} onPointerDown={pointerDown} onPointerMove={event=>{const current=drag.current;if(current&&current.id===event.pointerId)setPan(clampPan({x:current.panX+event.clientX-current.x,y:current.panY+event.clientY-current.y}));}} onPointerUp={()=>{drag.current=null;}} onPointerCancel={()=>{drag.current=null;}} onLostPointerCapture={()=>{drag.current=null;}}>
@@ -167,11 +171,29 @@ function PhotoAlbum({bird,selectedId,canManage,onClose,onSelect,onAdd,onReload}:
       <div className="viewer-tools"><button className="zoom-button" aria-label="Zoom out" disabled={!photo||zoom<=1} onClick={()=>setZoom(value=>Math.max(1,value/1.5))}>−</button><span aria-live="polite">{Math.round(zoom*100)}%</span><button className="zoom-button" aria-label="Zoom in" disabled={!photo||zoom>=6} onClick={()=>setZoom(value=>Math.min(6,value*1.5))}>+</button><button onClick={()=>{setZoom(1);setPan({x:0,y:0});}}>Reset</button><button onClick={fullscreen}>{fullWindow||nativeFullscreen?"Exit fullscreen":"Fullscreen"}</button>{photo && <a href={photoUrl(photo)} download={photo.originalName}>Download photo</a>}</div>
     </div>
     <div className="album-info"><div className="album-heading"><div><h2 id="album-title">{bird.name}</h2>{bird.scientificName && <p className="scientific-name">{bird.scientificName}</p>}{bird.family && <span className="family-tag">{bird.family}</span>}</div><div className="album-actions">{canManage && <button className="primary" onClick={onAdd}><Plus size={17}/> Add photos</button>}<button onClick={async()=>{try{await navigator.clipboard.writeText(window.location.href);setNotice("Album link copied.");}catch{setNotice("Copy this page's address to share the album.");}}}>Copy album link</button></div></div>
-      {photo && <div className="photo-details">{photo.caption && <p>{photo.caption}</p>}<div className="photo-metadata">{photo.location && <span><MapPin size={16}/>{photo.location}</span>}{photo.capturedOn && <span><CalendarDays size={16}/><time dateTime={photo.capturedOn}>{new Date(photo.capturedOn+"T12:00:00").toLocaleDateString(undefined,{year:"numeric",month:"long",day:"numeric"})}</time></span>}</div></div>}
+      {bird.identificationNote && <p className="identification-note">{bird.identificationNote}</p>}
+      {photo && <div className="photo-details">{photo.caption && <p>{photo.caption}</p>}<div className="photo-metadata"><span><MapPin size={16}/>{photo.location || "Location not recorded"}</span>{photo.capturedOn && <span><CalendarDays size={16}/><time dateTime={photo.capturedOn}>{new Date(photo.capturedOn+"T12:00:00").toLocaleDateString(undefined,{year:"numeric",month:"long",day:"numeric"})}</time></span>}{photo.capturedTime && <span title="Capture time recorded by the camera; no timezone conversion"><Clock3 size={16}/><time>{photo.capturedTime}</time><small>camera time</small></span>}</div>{photo.identificationNote && <p className="identification-note">{photo.identificationNote}</p>}</div>}
       {bird.photos.length>0 && <div className="album-thumbnails" aria-label="Album photographs">{bird.photos.map((item,i)=><button key={item.id} className={item.id===photo?.id?"selected":""} onClick={()=>onSelect(item.id)} aria-label={`View photograph ${i+1} of ${bird.name}`} aria-pressed={item.id===photo?.id}><img src={photoUrl(item,true)} alt="" loading="lazy"/></button>)}</div>}
-      {canManage && photo && <button className="text-button cover-button" disabled={coverBusy||coverPhoto(bird)?.id===photo.id} onClick={setCover}>{coverPhoto(bird)?.id===photo.id?"Album cover":"Use this as the album cover"}</button>}
+      {canManage && photo && <div className="photo-edit-actions"><button onClick={()=>setEditing(true)}>Edit photo details</button><button className="text-button cover-button" disabled={coverBusy||coverPhoto(bird)?.id===photo.id} onClick={setCover}>{coverPhoto(bird)?.id===photo.id?"Album cover":"Use this as the album cover"}</button></div>}
       <p className="album-notice" role="status">{notice}</p>
     </div>
+  </dialog>{editing && photo && <PhotoDetailsDialog photo={photo} onClose={()=>setEditing(false)} onComplete={async()=>{await onReload();setEditing(false);setNotice("Photo details saved to your draft. Publish the draft to update the gallery.");}}/>}</>;
+}
+
+function PhotoDetailsDialog({photo,onClose,onComplete}:{photo:BirdPhoto;onClose:()=>void;onComplete:()=>Promise<void>}) {
+  const dialog=useRef<HTMLDialogElement>(null);
+  const [capturedOn,setCapturedOn]=useState(photo.capturedOn),[capturedTime,setCapturedTime]=useState(photo.capturedTime||""),[location,setLocation]=useState(photo.location),[caption,setCaption]=useState(photo.caption);
+  const [busy,setBusy]=useState(false),[error,setError]=useState("");
+  useEffect(()=>{if(!dialog.current?.open)dialog.current?.showModal();},[]);
+  const submit=async(event:FormEvent)=>{
+    event.preventDefault();setBusy(true);setError("");
+    try {await stagePhotoDetails(photo.birdId,photo.id,{capturedOn,capturedTime,captureOffset:photo.captureOffset,location,caption});await onComplete();}
+    catch(err){setError(err instanceof Error?err.message:"The details could not be saved.");}
+    finally{setBusy(false);}
+  };
+  return <dialog ref={dialog} className="upload-dialog" aria-labelledby="photo-details-title" onCancel={event=>{event.preventDefault();if(!busy)onClose();}}>
+    <div className="upload-heading"><div><span className="eyebrow">This photograph</span><h2 id="photo-details-title">Edit photo details</h2><p className="photo-filename">{photo.originalName}</p></div><button className="icon-button" aria-label="Close photo details" onClick={onClose} disabled={busy}><X size={22}/></button></div>
+    <form onSubmit={submit}><fieldset disabled={busy}><div className="photo-fields"><label>Date taken<input type="date" value={capturedOn} onChange={event=>setCapturedOn(event.target.value)}/></label><label>Time taken<input type="time" step="1" value={capturedTime} onChange={event=>setCapturedTime(event.target.value)}/></label></div><p className="field-help">Time is recorded as shown by the camera.</p><label>Location<input value={location} onChange={event=>setLocation(event.target.value)} maxLength={160} placeholder="Where this photograph was taken"/></label><label className="caption-field">Caption<textarea value={caption} onChange={event=>setCaption(event.target.value)} maxLength={600} rows={3}/></label></fieldset><p className="form-error" role="alert">{error}</p><div className="form-actions"><span>Changes apply to this photograph only.</span><button type="button" onClick={onClose} disabled={busy}>Cancel</button><button className="primary" disabled={busy}>{busy?"Saving…":"Save to draft"}</button></div></form>
   </dialog>;
 }
 
