@@ -15,7 +15,7 @@ The built website has no server, database, third-party analytics, or required pa
 1. Open **Manage collection** in the gallery footer.
 2. Choose **Add a bird**, enter its common name, and select photographs. Scientific name, family, capture date, location, and caption are optional. JPEG, PNG, WebP, and AVIF are supported up to 20 MB per file.
 3. Save to a draft. Draft photographs are kept locally in this browser using IndexedDB; they are not visible to other visitors.
-4. Open an album to add more photographs or choose its cover. **Edit photo details** lets you enter an individual location, date, time, and caption for the selected photo, then save those changes to your draft.
+4. Open an album to add more photographs or choose its cover. **Edit photo details** lets you enter an individual location, date, time, and caption for the selected photo, then save those changes to your draft. The public gallery also has an **Edit photo** button beneath every selected photograph’s details; it opens the manager and editor for that exact photo.
 5. Choose **Publish draft**. Supply a fine-grained GitHub token for `badlight/josephsbirds` with **Contents: Read and write**, limited to this one repository. The token stays in memory for that publish and is cleared afterward. Do not place tokens in source files or send them in chat.
 
 Publishing creates one Git commit for the catalogue and its photos. Existing albums and unrelated repository files are preserved. Concurrent album additions are merged; conflicting cover or same-field photo-detail changes stop with a review message. Changes to different fields are merged without losing either editor’s work. The branch update never force-pushes. GitHub Pages may take a minute to show an accepted publish.

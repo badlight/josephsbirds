@@ -137,6 +137,12 @@ function PhotoAlbum({bird,selectedId,canManage,onClose,onSelect,onAdd,onReload}:
     return {x:Math.min(maxX,Math.max(-maxX,value.x)),y:Math.min(maxY,Math.max(-maxY,value.y))};
   },[zoom,photo]);
   useEffect(() => {if(!dialog.current?.open)dialog.current?.showModal();dialog.current?.querySelector<HTMLButtonElement>(".viewer-close")?.focus();},[bird.id]);
+  useEffect(() => {
+    const url=new URL(window.location.href);
+    if(!canManage||url.searchParams.get("edit")!=="photo")return;
+    url.searchParams.delete("edit");window.history.replaceState({},"",url);
+    if(url.searchParams.get("bird")===bird.id&&url.searchParams.get("photo")===photo?.id)setEditing(true);
+  },[canManage,bird.id,photo?.id]);
   useEffect(() => {setZoom(1);setPan({x:0,y:0});setNotice("");drag.current=null;},[photo?.id]);
   useEffect(() => {
     setPan(value=>clampPan(value));const observer=new ResizeObserver(()=>setPan(value=>clampPan(value)));
@@ -173,8 +179,8 @@ function PhotoAlbum({bird,selectedId,canManage,onClose,onSelect,onAdd,onReload}:
     <div className="album-info"><div className="album-heading"><div><h2 id="album-title">{bird.name}</h2>{bird.scientificName && <p className="scientific-name">{bird.scientificName}</p>}{bird.family && <span className="family-tag">{bird.family}</span>}</div><div className="album-actions">{canManage && <button className="primary" onClick={onAdd}><Plus size={17}/> Add photos</button>}<button onClick={async()=>{try{await navigator.clipboard.writeText(window.location.href);setNotice("Album link copied.");}catch{setNotice("Copy this page's address to share the album.");}}}>Copy album link</button></div></div>
       {bird.identificationNote && <p className="identification-note">{bird.identificationNote}</p>}
       {photo && <div className="photo-details">{photo.caption && <p>{photo.caption}</p>}<div className="photo-metadata"><span><MapPin size={16}/>{photo.location || "Location not recorded"}</span>{photo.capturedOn && <span><CalendarDays size={16}/><time dateTime={photo.capturedOn}>{new Date(photo.capturedOn+"T12:00:00").toLocaleDateString(undefined,{year:"numeric",month:"long",day:"numeric"})}</time></span>}{photo.capturedTime && <span title="Capture time recorded by the camera; no timezone conversion"><Clock3 size={16}/><time>{photo.capturedTime}</time><small>camera time</small></span>}</div>{photo.identificationNote && <p className="identification-note">{photo.identificationNote}</p>}</div>}
+      {photo && <div className="photo-edit-actions">{canManage ? <button onClick={()=>setEditing(true)}>Edit photo details</button> : <a className="photo-edit-link" href={`./?${new URLSearchParams({manage:"1",bird:bird.id,photo:photo.id,edit:"photo"})}`}>Edit photo</a>}{canManage && <button className="text-button cover-button" disabled={coverBusy||coverPhoto(bird)?.id===photo.id} onClick={setCover}>{coverPhoto(bird)?.id===photo.id?"Album cover":"Use this as the album cover"}</button>}</div>}
       {bird.photos.length>0 && <div className="album-thumbnails" aria-label="Album photographs">{bird.photos.map((item,i)=><button key={item.id} className={item.id===photo?.id?"selected":""} onClick={()=>onSelect(item.id)} aria-label={`View photograph ${i+1} of ${bird.name}`} aria-pressed={item.id===photo?.id}><img src={photoUrl(item,true)} alt="" loading="lazy"/></button>)}</div>}
-      {canManage && photo && <div className="photo-edit-actions"><button onClick={()=>setEditing(true)}>Edit photo details</button><button className="text-button cover-button" disabled={coverBusy||coverPhoto(bird)?.id===photo.id} onClick={setCover}>{coverPhoto(bird)?.id===photo.id?"Album cover":"Use this as the album cover"}</button></div>}
       <p className="album-notice" role="status">{notice}</p>
     </div>
   </dialog>{editing && photo && <PhotoDetailsDialog photo={photo} onClose={()=>setEditing(false)} onComplete={async()=>{await onReload();setEditing(false);setNotice("Photo details saved to your draft. Publish the draft to update the gallery.");}}/>}</>;
