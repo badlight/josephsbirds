@@ -22,7 +22,7 @@ Publishing creates one Git commit for the catalogue and its photos. Existing alb
 
 ## Image viewer
 
-Photographs reach the top of the viewer. Simple `<` and `>` arrows appear at the image edges on hover and remain available on touch devices. Image controls are rounded and light against black. Zoom, drag-to-pan, double-click zoom, keyboard navigation, fullscreen, photo download, shareable album URLs, and cover selection are included. There is no comparison feature or number-of-number header.
+Photographs reach the top of the viewer. Simple `<` and `>` arrows appear at the image edges on hover and remain available on touch devices. Image controls sit in the cream section of the card, with rounded beige buttons and bronze text. Zoom, drag-to-pan, double-click zoom, keyboard navigation, fullscreen, photo download, shareable album URLs, and cover selection are included. There is no comparison feature or number-of-number header.
 
 ## Development
 
