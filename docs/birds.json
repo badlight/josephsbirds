@@ -23,7 +23,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/american-robin/photo-044f98c36fdbfe386f6a022c.jpg",
-          "thumbnail": "images/american-robin/photo-044f98c36fdbfe386f6a022c-thumb.jpg"
+          "thumbnail": "images/american-robin/photo-044f98c36fdbfe386f6a022c-thumb.jpg",
+          "originalSha256": "044f98c36fdbfe386f6a022cdedb6906664c12f3adae4036e7b39d553dd2f0f1"
         }
       ]
     },
@@ -49,7 +50,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/australasian-swamphen/photo-0aca01a1801e7163549343b8.jpg",
-          "thumbnail": "images/australasian-swamphen/photo-0aca01a1801e7163549343b8-thumb.jpg"
+          "thumbnail": "images/australasian-swamphen/photo-0aca01a1801e7163549343b8-thumb.jpg",
+          "originalSha256": "0aca01a1801e7163549343b8de5f4b0e1e39043cfa27fa51d2127ff9d9fadac9"
         },
         {
           "id": "photo-a0060b8eb93010844b1bec01",
@@ -64,7 +66,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/australasian-swamphen/photo-a0060b8eb93010844b1bec01.jpg",
-          "thumbnail": "images/australasian-swamphen/photo-a0060b8eb93010844b1bec01-thumb.jpg"
+          "thumbnail": "images/australasian-swamphen/photo-a0060b8eb93010844b1bec01-thumb.jpg",
+          "originalSha256": "a0060b8eb93010844b1bec017feead2360f07028353ba326b29c028204570cd2"
         },
         {
           "id": "photo-5d52ea0f80fdb654be6d2c88",
@@ -79,7 +82,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/australasian-swamphen/photo-5d52ea0f80fdb654be6d2c88.jpg",
-          "thumbnail": "images/australasian-swamphen/photo-5d52ea0f80fdb654be6d2c88-thumb.jpg"
+          "thumbnail": "images/australasian-swamphen/photo-5d52ea0f80fdb654be6d2c88-thumb.jpg",
+          "originalSha256": "5d52ea0f80fdb654be6d2c88339f0539510adac29c9be06e5c11dcbb82b47307"
         },
         {
           "id": "photo-a5096bc53d68829ffde68ebe",
@@ -94,7 +98,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/australasian-swamphen/photo-a5096bc53d68829ffde68ebe.jpg",
-          "thumbnail": "images/australasian-swamphen/photo-a5096bc53d68829ffde68ebe-thumb.jpg"
+          "thumbnail": "images/australasian-swamphen/photo-a5096bc53d68829ffde68ebe-thumb.jpg",
+          "originalSha256": "a5096bc53d68829ffde68ebece08537329bb0d272a21f5183c62df96e8b116bf"
         },
         {
           "id": "photo-db2faaa9eaefbf5b0e1066d4",
@@ -109,7 +114,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/australasian-swamphen/photo-db2faaa9eaefbf5b0e1066d4.jpg",
-          "thumbnail": "images/australasian-swamphen/photo-db2faaa9eaefbf5b0e1066d4-thumb.jpg"
+          "thumbnail": "images/australasian-swamphen/photo-db2faaa9eaefbf5b0e1066d4-thumb.jpg",
+          "originalSha256": "db2faaa9eaefbf5b0e1066d443e3c79a94ff35946544a231c00fbfbd35d8205b"
         }
       ]
     },
@@ -135,7 +141,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/australian-white-ibis/photo-a15efc4d04cb51cc11746f20.jpg",
-          "thumbnail": "images/australian-white-ibis/photo-a15efc4d04cb51cc11746f20-thumb.jpg"
+          "thumbnail": "images/australian-white-ibis/photo-a15efc4d04cb51cc11746f20-thumb.jpg",
+          "originalSha256": "a15efc4d04cb51cc11746f20d462d62b7f5bb035c8b0bd3106f6243f5f1e9ec6"
         }
       ]
     },
@@ -161,7 +168,8 @@
           "caption": "An Australian Wood Duck duckling.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/australian-wood-duck/photo-c6e3a18256d525d76f7dbb40.jpg",
-          "thumbnail": "images/australian-wood-duck/photo-c6e3a18256d525d76f7dbb40-thumb.jpg"
+          "thumbnail": "images/australian-wood-duck/photo-c6e3a18256d525d76f7dbb40-thumb.jpg",
+          "originalSha256": "c6e3a18256d525d76f7dbb40f1a1e650cf4140d33e4a2ee774808ea040ca6e57"
         }
       ],
       "identificationNote": "Provisional identification: the duckling appears to be an Australian Wood Duck. The adult bird or sighting location would help confirm it."
@@ -188,7 +196,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/black-swan/photo-dc9eec13e05812a487683fd2.jpg",
-          "thumbnail": "images/black-swan/photo-dc9eec13e05812a487683fd2-thumb.jpg"
+          "thumbnail": "images/black-swan/photo-dc9eec13e05812a487683fd2-thumb.jpg",
+          "originalSha256": "dc9eec13e05812a487683fd2529accd6dd5c8139c4239abe81cd717cc97c1ab7"
         }
       ]
     },
@@ -214,7 +223,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/black-capped-chickadee/photo-798999180d90ff285683a439.jpg",
-          "thumbnail": "images/black-capped-chickadee/photo-798999180d90ff285683a439-thumb.jpg"
+          "thumbnail": "images/black-capped-chickadee/photo-798999180d90ff285683a439-thumb.jpg",
+          "originalSha256": "798999180d90ff285683a4394432beb56fc60160dc525b47f922d881281a56f0"
         }
       ]
     },
@@ -240,7 +250,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/black-crowned-night-heron/photo-c8cf8b868048fd9d55b05e8a.jpg",
-          "thumbnail": "images/black-crowned-night-heron/photo-c8cf8b868048fd9d55b05e8a-thumb.jpg"
+          "thumbnail": "images/black-crowned-night-heron/photo-c8cf8b868048fd9d55b05e8a-thumb.jpg",
+          "originalSha256": "c8cf8b868048fd9d55b05e8a9c996ee20aea1df3493812b79d5c9f8863c3ea21"
         },
         {
           "id": "photo-3c08a4d43fea8aed10ec3aaa",
@@ -255,7 +266,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/black-crowned-night-heron/photo-3c08a4d43fea8aed10ec3aaa.jpg",
-          "thumbnail": "images/black-crowned-night-heron/photo-3c08a4d43fea8aed10ec3aaa-thumb.jpg"
+          "thumbnail": "images/black-crowned-night-heron/photo-3c08a4d43fea8aed10ec3aaa-thumb.jpg",
+          "originalSha256": "3c08a4d43fea8aed10ec3aaa1146baff5d8a9fc50b489cad6477868f5060dfd8"
         }
       ]
     },
@@ -281,7 +293,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/blue-jay/photo-ed00962e6019e0f3b2f68cb9.jpg",
-          "thumbnail": "images/blue-jay/photo-ed00962e6019e0f3b2f68cb9-thumb.jpg"
+          "thumbnail": "images/blue-jay/photo-ed00962e6019e0f3b2f68cb9-thumb.jpg",
+          "originalSha256": "ed00962e6019e0f3b2f68cb9e7d6f6c1017cc0c67f34cc4fe2848bef32246332"
         },
         {
           "id": "photo-27d79d4aac1a42bccbda13ae",
@@ -296,7 +309,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/blue-jay/photo-27d79d4aac1a42bccbda13ae.jpg",
-          "thumbnail": "images/blue-jay/photo-27d79d4aac1a42bccbda13ae-thumb.jpg"
+          "thumbnail": "images/blue-jay/photo-27d79d4aac1a42bccbda13ae-thumb.jpg",
+          "originalSha256": "27d79d4aac1a42bccbda13ae56657a9d6d6e5af46921f4a70aaaed68ac36fa93"
         }
       ]
     },
@@ -322,7 +336,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/canada-goose/photo-848ab5f0ca266c56d9392008.jpg",
-          "thumbnail": "images/canada-goose/photo-848ab5f0ca266c56d9392008-thumb.jpg"
+          "thumbnail": "images/canada-goose/photo-848ab5f0ca266c56d9392008-thumb.jpg",
+          "originalSha256": "848ab5f0ca266c56d939200888bb3016eadeef380c71e70da12fed273c33e201"
         },
         {
           "id": "photo-08780f6e29fad0d015e5b71c",
@@ -337,7 +352,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/canada-goose/photo-08780f6e29fad0d015e5b71c.jpg",
-          "thumbnail": "images/canada-goose/photo-08780f6e29fad0d015e5b71c-thumb.jpg"
+          "thumbnail": "images/canada-goose/photo-08780f6e29fad0d015e5b71c-thumb.jpg",
+          "originalSha256": "08780f6e29fad0d015e5b71c48eb08125bb17316413d514b9986583528b298a8"
         },
         {
           "id": "photo-0a002a2ca1ec6c22aba35b98",
@@ -352,7 +368,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/canada-goose/photo-0a002a2ca1ec6c22aba35b98.jpg",
-          "thumbnail": "images/canada-goose/photo-0a002a2ca1ec6c22aba35b98-thumb.jpg"
+          "thumbnail": "images/canada-goose/photo-0a002a2ca1ec6c22aba35b98-thumb.jpg",
+          "originalSha256": "0a002a2ca1ec6c22aba35b982e553d564385ab9db94d8c4e53f55f07e7bc86f5"
         }
       ]
     },
@@ -378,7 +395,8 @@
           "caption": "A Common Goldeneye in immature male plumage.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-f1a06c2a14d4db33aece0ef7.jpg",
-          "thumbnail": "images/common-goldeneye/photo-f1a06c2a14d4db33aece0ef7-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-f1a06c2a14d4db33aece0ef7-thumb.jpg",
+          "originalSha256": "f1a06c2a14d4db33aece0ef7935891490572698cc31421e29b2a7ef8377baeae"
         },
         {
           "id": "photo-1e12613008b0115386cf6bb3",
@@ -393,7 +411,8 @@
           "caption": "A Common Goldeneye in immature male plumage.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-1e12613008b0115386cf6bb3.jpg",
-          "thumbnail": "images/common-goldeneye/photo-1e12613008b0115386cf6bb3-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-1e12613008b0115386cf6bb3-thumb.jpg",
+          "originalSha256": "1e12613008b0115386cf6bb36aeb3fef27c1799c9ef4f52ae9a891cbba3f0cb6"
         },
         {
           "id": "photo-edca6a2c408e9e24d82e4147",
@@ -408,7 +427,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-edca6a2c408e9e24d82e4147.jpg",
-          "thumbnail": "images/common-goldeneye/photo-edca6a2c408e9e24d82e4147-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-edca6a2c408e9e24d82e4147-thumb.jpg",
+          "originalSha256": "edca6a2c408e9e24d82e41472e487bee93427850dc9233281af6a068ee7bbad9"
         },
         {
           "id": "photo-c367b92112412b8b3c631460",
@@ -423,7 +443,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-c367b92112412b8b3c631460.jpg",
-          "thumbnail": "images/common-goldeneye/photo-c367b92112412b8b3c631460-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-c367b92112412b8b3c631460-thumb.jpg",
+          "originalSha256": "c367b92112412b8b3c6314609eff469c4acd95608cfc42b25004f332ae356ae6"
         },
         {
           "id": "photo-dcaddb36bee42248fa3b09d2",
@@ -438,7 +459,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-dcaddb36bee42248fa3b09d2.jpg",
-          "thumbnail": "images/common-goldeneye/photo-dcaddb36bee42248fa3b09d2-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-dcaddb36bee42248fa3b09d2-thumb.jpg",
+          "originalSha256": "dcaddb36bee42248fa3b09d231c7b2bfd538e039808e37104f96b5177daab805"
         },
         {
           "id": "photo-22261c3032ef2c161cee8f5a",
@@ -453,7 +475,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-22261c3032ef2c161cee8f5a.jpg",
-          "thumbnail": "images/common-goldeneye/photo-22261c3032ef2c161cee8f5a-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-22261c3032ef2c161cee8f5a-thumb.jpg",
+          "originalSha256": "22261c3032ef2c161cee8f5a6ff7070b0728c1f26a752b9ef669392ae183bac4"
         },
         {
           "id": "photo-0a5b59beccb93d582e30014d",
@@ -468,7 +491,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-0a5b59beccb93d582e30014d.jpg",
-          "thumbnail": "images/common-goldeneye/photo-0a5b59beccb93d582e30014d-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-0a5b59beccb93d582e30014d-thumb.jpg",
+          "originalSha256": "0a5b59beccb93d582e30014dc52c343e55b2fd13c06681fd76657b1a32d775dc"
         },
         {
           "id": "photo-0d9761e849001fce673a5e3c",
@@ -483,7 +507,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-0d9761e849001fce673a5e3c.jpg",
-          "thumbnail": "images/common-goldeneye/photo-0d9761e849001fce673a5e3c-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-0d9761e849001fce673a5e3c-thumb.jpg",
+          "originalSha256": "0d9761e849001fce673a5e3caa67026f4b69afba7bfab20478a2133e7d02177e"
         },
         {
           "id": "photo-8419d23066c0d628ec4baeaa",
@@ -498,7 +523,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-8419d23066c0d628ec4baeaa.jpg",
-          "thumbnail": "images/common-goldeneye/photo-8419d23066c0d628ec4baeaa-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-8419d23066c0d628ec4baeaa-thumb.jpg",
+          "originalSha256": "8419d23066c0d628ec4baeaa583483ad3b2e82ddc3e08b10206d38ae5b7e19da"
         },
         {
           "id": "photo-9caf97c2da768187abeafde8",
@@ -513,7 +539,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-9caf97c2da768187abeafde8.jpg",
-          "thumbnail": "images/common-goldeneye/photo-9caf97c2da768187abeafde8-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-9caf97c2da768187abeafde8-thumb.jpg",
+          "originalSha256": "9caf97c2da768187abeafde8e247b65a60bb9568fea6f34b33cdc2b9002cf093"
         },
         {
           "id": "photo-388885352373efe06557293d",
@@ -528,7 +555,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-388885352373efe06557293d.jpg",
-          "thumbnail": "images/common-goldeneye/photo-388885352373efe06557293d-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-388885352373efe06557293d-thumb.jpg",
+          "originalSha256": "388885352373efe06557293d7b26c73d7a56208c7b4d9b2f8cc97ba144cadd58"
         },
         {
           "id": "photo-b9b8f66a69097b285fb98785",
@@ -543,7 +571,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-b9b8f66a69097b285fb98785.jpg",
-          "thumbnail": "images/common-goldeneye/photo-b9b8f66a69097b285fb98785-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-b9b8f66a69097b285fb98785-thumb.jpg",
+          "originalSha256": "b9b8f66a69097b285fb9878598b8e83da2ded416e9d09c5841e1b29d165b9ffd"
         },
         {
           "id": "photo-36151ac43f7415a119162c1b",
@@ -558,7 +587,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-36151ac43f7415a119162c1b.jpg",
-          "thumbnail": "images/common-goldeneye/photo-36151ac43f7415a119162c1b-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-36151ac43f7415a119162c1b-thumb.jpg",
+          "originalSha256": "36151ac43f7415a119162c1b4620195be9408e7fcf36c62bae3174e026857fe2"
         },
         {
           "id": "photo-096d517e06db199afc5b5dcf",
@@ -573,7 +603,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-096d517e06db199afc5b5dcf.jpg",
-          "thumbnail": "images/common-goldeneye/photo-096d517e06db199afc5b5dcf-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-096d517e06db199afc5b5dcf-thumb.jpg",
+          "originalSha256": "096d517e06db199afc5b5dcf01f5ca9a3000373d645611aa79375c4202f0a2dd"
         },
         {
           "id": "photo-01ef71051b7e7f16b1fb1d5b",
@@ -588,7 +619,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-01ef71051b7e7f16b1fb1d5b.jpg",
-          "thumbnail": "images/common-goldeneye/photo-01ef71051b7e7f16b1fb1d5b-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-01ef71051b7e7f16b1fb1d5b-thumb.jpg",
+          "originalSha256": "01ef71051b7e7f16b1fb1d5b40df253ea5407469d47f01c3e2e0bb9c63a02dac"
         },
         {
           "id": "photo-991e3853c1d38e0b702e09eb",
@@ -603,7 +635,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-991e3853c1d38e0b702e09eb.jpg",
-          "thumbnail": "images/common-goldeneye/photo-991e3853c1d38e0b702e09eb-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-991e3853c1d38e0b702e09eb-thumb.jpg",
+          "originalSha256": "991e3853c1d38e0b702e09eb09233b058e137368c32083cfb2125194e4a38e5e"
         },
         {
           "id": "photo-34f9a7b7e44e0bb430455c13",
@@ -618,7 +651,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-34f9a7b7e44e0bb430455c13.jpg",
-          "thumbnail": "images/common-goldeneye/photo-34f9a7b7e44e0bb430455c13-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-34f9a7b7e44e0bb430455c13-thumb.jpg",
+          "originalSha256": "34f9a7b7e44e0bb430455c13ee00359fb952923d5ba21a99b142ee2db9b8221d"
         },
         {
           "id": "photo-76aad9ee1183c14e4fbab3a5",
@@ -633,7 +667,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-76aad9ee1183c14e4fbab3a5.jpg",
-          "thumbnail": "images/common-goldeneye/photo-76aad9ee1183c14e4fbab3a5-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-76aad9ee1183c14e4fbab3a5-thumb.jpg",
+          "originalSha256": "76aad9ee1183c14e4fbab3a52ce53adf6c9c93e01104dc8723c94a6d960ca0db"
         },
         {
           "id": "photo-83401df3f5e72343b90fab56",
@@ -648,7 +683,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-83401df3f5e72343b90fab56.jpg",
-          "thumbnail": "images/common-goldeneye/photo-83401df3f5e72343b90fab56-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-83401df3f5e72343b90fab56-thumb.jpg",
+          "originalSha256": "83401df3f5e72343b90fab56d9bfdc2e711e3f8788e92567340cc03a20c37bc4"
         },
         {
           "id": "photo-71375c933e17f27e0139c3f5",
@@ -663,7 +699,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-71375c933e17f27e0139c3f5.jpg",
-          "thumbnail": "images/common-goldeneye/photo-71375c933e17f27e0139c3f5-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-71375c933e17f27e0139c3f5-thumb.jpg",
+          "originalSha256": "71375c933e17f27e0139c3f59574286af97fb96896f1cd59cd2138b666673566"
         },
         {
           "id": "photo-386a23116b807cf29a674dbd",
@@ -678,7 +715,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-386a23116b807cf29a674dbd.jpg",
-          "thumbnail": "images/common-goldeneye/photo-386a23116b807cf29a674dbd-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-386a23116b807cf29a674dbd-thumb.jpg",
+          "originalSha256": "386a23116b807cf29a674dbdf0843bfe157348dfd2a2931c4f1bc611d38ef3cb"
         },
         {
           "id": "photo-562d3069012fa6749dfe70d9",
@@ -693,7 +731,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-562d3069012fa6749dfe70d9.jpg",
-          "thumbnail": "images/common-goldeneye/photo-562d3069012fa6749dfe70d9-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-562d3069012fa6749dfe70d9-thumb.jpg",
+          "originalSha256": "562d3069012fa6749dfe70d9f8752ce0f446f422dab01f34361b13029c106ac4"
         },
         {
           "id": "photo-2b0e6622b59dc1ba1d373568",
@@ -708,7 +747,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-2b0e6622b59dc1ba1d373568.jpg",
-          "thumbnail": "images/common-goldeneye/photo-2b0e6622b59dc1ba1d373568-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-2b0e6622b59dc1ba1d373568-thumb.jpg",
+          "originalSha256": "2b0e6622b59dc1ba1d3735683b2b396691dc8a29a6acd603a3c91c391d1eb74d"
         },
         {
           "id": "photo-7c0f54eff5c84828ba78367e",
@@ -723,7 +763,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-7c0f54eff5c84828ba78367e.jpg",
-          "thumbnail": "images/common-goldeneye/photo-7c0f54eff5c84828ba78367e-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-7c0f54eff5c84828ba78367e-thumb.jpg",
+          "originalSha256": "7c0f54eff5c84828ba78367efa0a7abfe4cb90e874d3794203c718704fbf0ba6"
         },
         {
           "id": "photo-8fd504717bff558bad13330e",
@@ -738,7 +779,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-8fd504717bff558bad13330e.jpg",
-          "thumbnail": "images/common-goldeneye/photo-8fd504717bff558bad13330e-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-8fd504717bff558bad13330e-thumb.jpg",
+          "originalSha256": "8fd504717bff558bad13330e20b53e7307e1a097c46b9bfbe2f5324f6dee6852"
         },
         {
           "id": "photo-0995fcd0f823517902abdd72",
@@ -753,7 +795,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-0995fcd0f823517902abdd72.jpg",
-          "thumbnail": "images/common-goldeneye/photo-0995fcd0f823517902abdd72-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-0995fcd0f823517902abdd72-thumb.jpg",
+          "originalSha256": "0995fcd0f823517902abdd72a46f3b7e3faa42204e1d3c8597cf225d15aa44fd"
         },
         {
           "id": "photo-9d21cf02730b8b67660020d5",
@@ -768,7 +811,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-9d21cf02730b8b67660020d5.jpg",
-          "thumbnail": "images/common-goldeneye/photo-9d21cf02730b8b67660020d5-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-9d21cf02730b8b67660020d5-thumb.jpg",
+          "originalSha256": "9d21cf02730b8b67660020d53e51b00fa979b3397fc26e5496441706f9e4c8ab"
         },
         {
           "id": "photo-aa1f782b70833e623f4258b2",
@@ -783,7 +827,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-aa1f782b70833e623f4258b2.jpg",
-          "thumbnail": "images/common-goldeneye/photo-aa1f782b70833e623f4258b2-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-aa1f782b70833e623f4258b2-thumb.jpg",
+          "originalSha256": "aa1f782b70833e623f4258b2177f0a9a8acb15c91da593c56f52365da1d0761f"
         },
         {
           "id": "photo-b41a840601e396f258a399a1",
@@ -798,7 +843,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-b41a840601e396f258a399a1.jpg",
-          "thumbnail": "images/common-goldeneye/photo-b41a840601e396f258a399a1-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-b41a840601e396f258a399a1-thumb.jpg",
+          "originalSha256": "b41a840601e396f258a399a1e65a6a520f3122b6c3a12843158dd0ac63431d58"
         },
         {
           "id": "photo-e83759a94ee013781d2e2e8a",
@@ -813,7 +859,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-e83759a94ee013781d2e2e8a.jpg",
-          "thumbnail": "images/common-goldeneye/photo-e83759a94ee013781d2e2e8a-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-e83759a94ee013781d2e2e8a-thumb.jpg",
+          "originalSha256": "e83759a94ee013781d2e2e8a9d6f74086ea511ccb297e7834142ec0f159fc2bd"
         },
         {
           "id": "photo-5a3e9d8de19d4491c044bd87",
@@ -828,7 +875,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-5a3e9d8de19d4491c044bd87.jpg",
-          "thumbnail": "images/common-goldeneye/photo-5a3e9d8de19d4491c044bd87-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-5a3e9d8de19d4491c044bd87-thumb.jpg",
+          "originalSha256": "5a3e9d8de19d4491c044bd87cd32819a5281924b25aef19ff065b9d42d469827"
         },
         {
           "id": "photo-635545a61ef3d7dd632bcdb3",
@@ -843,7 +891,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-635545a61ef3d7dd632bcdb3.jpg",
-          "thumbnail": "images/common-goldeneye/photo-635545a61ef3d7dd632bcdb3-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-635545a61ef3d7dd632bcdb3-thumb.jpg",
+          "originalSha256": "635545a61ef3d7dd632bcdb3ddf12b2bde1c035c70d3ff2c145a2ca224e8d2ef"
         },
         {
           "id": "photo-6be524b009818b85d44d13f4",
@@ -858,7 +907,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-6be524b009818b85d44d13f4.jpg",
-          "thumbnail": "images/common-goldeneye/photo-6be524b009818b85d44d13f4-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-6be524b009818b85d44d13f4-thumb.jpg",
+          "originalSha256": "6be524b009818b85d44d13f4aad5aa45460bcffc253dfc200d13a54b070af606"
         },
         {
           "id": "photo-c3ce9efea01cb63e27d19a2d",
@@ -873,7 +923,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-c3ce9efea01cb63e27d19a2d.jpg",
-          "thumbnail": "images/common-goldeneye/photo-c3ce9efea01cb63e27d19a2d-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-c3ce9efea01cb63e27d19a2d-thumb.jpg",
+          "originalSha256": "c3ce9efea01cb63e27d19a2d1a9c834ec50d938293b4d4c908c38159fa34ed18"
         },
         {
           "id": "photo-9b5986cba47f11432d555b8f",
@@ -888,7 +939,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-9b5986cba47f11432d555b8f.jpg",
-          "thumbnail": "images/common-goldeneye/photo-9b5986cba47f11432d555b8f-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-9b5986cba47f11432d555b8f-thumb.jpg",
+          "originalSha256": "9b5986cba47f11432d555b8f3fc82ec3530b71e5edd81b96961210c0f29d4ec6"
         },
         {
           "id": "photo-08d65f442865f938dee0c373",
@@ -903,7 +955,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-08d65f442865f938dee0c373.jpg",
-          "thumbnail": "images/common-goldeneye/photo-08d65f442865f938dee0c373-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-08d65f442865f938dee0c373-thumb.jpg",
+          "originalSha256": "08d65f442865f938dee0c37364b719ca86082b30e6a07ff90ec1b402b4f7fd4a"
         },
         {
           "id": "photo-f9c7e085d89baa5c448f89d3",
@@ -918,7 +971,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-f9c7e085d89baa5c448f89d3.jpg",
-          "thumbnail": "images/common-goldeneye/photo-f9c7e085d89baa5c448f89d3-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-f9c7e085d89baa5c448f89d3-thumb.jpg",
+          "originalSha256": "f9c7e085d89baa5c448f89d35ae1979b790740a9aec32e70606002ac9093e029"
         },
         {
           "id": "photo-4d008585678d05060fe50b38",
@@ -933,7 +987,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-4d008585678d05060fe50b38.jpg",
-          "thumbnail": "images/common-goldeneye/photo-4d008585678d05060fe50b38-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-4d008585678d05060fe50b38-thumb.jpg",
+          "originalSha256": "4d008585678d05060fe50b38d55befd5d4f5a372dd3a9d2801b3b3d1ab7ddac0"
         },
         {
           "id": "photo-c07a8fa5f83254bfaca0e83a",
@@ -948,7 +1003,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-c07a8fa5f83254bfaca0e83a.jpg",
-          "thumbnail": "images/common-goldeneye/photo-c07a8fa5f83254bfaca0e83a-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-c07a8fa5f83254bfaca0e83a-thumb.jpg",
+          "originalSha256": "c07a8fa5f83254bfaca0e83af0f5120d0c0282ec9aac410cd19603c0dced3bd9"
         },
         {
           "id": "photo-da598a29b4781144533a0f0e",
@@ -963,7 +1019,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-da598a29b4781144533a0f0e.jpg",
-          "thumbnail": "images/common-goldeneye/photo-da598a29b4781144533a0f0e-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-da598a29b4781144533a0f0e-thumb.jpg",
+          "originalSha256": "da598a29b4781144533a0f0e8ff868baf4e85e4906cafef0f7d5c18f892bb704"
         },
         {
           "id": "photo-97fb46375f87ad572c07e4ba",
@@ -978,7 +1035,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-97fb46375f87ad572c07e4ba.jpg",
-          "thumbnail": "images/common-goldeneye/photo-97fb46375f87ad572c07e4ba-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-97fb46375f87ad572c07e4ba-thumb.jpg",
+          "originalSha256": "97fb46375f87ad572c07e4ba3a25b8938387da8a74faedb4dab429f834df59f1"
         },
         {
           "id": "photo-be46fbf9bf60fd1c9fe873ec",
@@ -993,7 +1051,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-be46fbf9bf60fd1c9fe873ec.jpg",
-          "thumbnail": "images/common-goldeneye/photo-be46fbf9bf60fd1c9fe873ec-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-be46fbf9bf60fd1c9fe873ec-thumb.jpg",
+          "originalSha256": "be46fbf9bf60fd1c9fe873ecc51d841c37c77039b9270a2ecf4c5e3caa54e11e"
         },
         {
           "id": "photo-dd3988fa11ce46b07cca4dd6",
@@ -1008,7 +1067,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-dd3988fa11ce46b07cca4dd6.jpg",
-          "thumbnail": "images/common-goldeneye/photo-dd3988fa11ce46b07cca4dd6-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-dd3988fa11ce46b07cca4dd6-thumb.jpg",
+          "originalSha256": "dd3988fa11ce46b07cca4dd6a57cb3220734e90a4118dff357e97fb75f6377de"
         },
         {
           "id": "photo-a43f926902b9acb6a0dd535f",
@@ -1023,7 +1083,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-a43f926902b9acb6a0dd535f.jpg",
-          "thumbnail": "images/common-goldeneye/photo-a43f926902b9acb6a0dd535f-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-a43f926902b9acb6a0dd535f-thumb.jpg",
+          "originalSha256": "a43f926902b9acb6a0dd535fb08c7de09302ff8705746eb54b64667ceaa2593c"
         },
         {
           "id": "photo-f41eaeccea75d337c5c28ba1",
@@ -1038,7 +1099,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-f41eaeccea75d337c5c28ba1.jpg",
-          "thumbnail": "images/common-goldeneye/photo-f41eaeccea75d337c5c28ba1-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-f41eaeccea75d337c5c28ba1-thumb.jpg",
+          "originalSha256": "f41eaeccea75d337c5c28ba1a6bb5f8a1de60b3c9bdd5cda3eafe42a037e66e7"
         },
         {
           "id": "photo-19b81c7e20d3f45ff08aa7df",
@@ -1053,7 +1115,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-19b81c7e20d3f45ff08aa7df.jpg",
-          "thumbnail": "images/common-goldeneye/photo-19b81c7e20d3f45ff08aa7df-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-19b81c7e20d3f45ff08aa7df-thumb.jpg",
+          "originalSha256": "19b81c7e20d3f45ff08aa7dfa534a81d8ff88efb6095ed706d9a0fbb80f63a4e"
         },
         {
           "id": "photo-940ddd4e7decb312fcdeb15d",
@@ -1068,7 +1131,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-940ddd4e7decb312fcdeb15d.jpg",
-          "thumbnail": "images/common-goldeneye/photo-940ddd4e7decb312fcdeb15d-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-940ddd4e7decb312fcdeb15d-thumb.jpg",
+          "originalSha256": "940ddd4e7decb312fcdeb15dda8f5ad3d75f48abed2cdb105f34789dd214d894"
         },
         {
           "id": "photo-d32a4465235b072f46185bbd",
@@ -1083,7 +1147,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-d32a4465235b072f46185bbd.jpg",
-          "thumbnail": "images/common-goldeneye/photo-d32a4465235b072f46185bbd-thumb.jpg"
+          "thumbnail": "images/common-goldeneye/photo-d32a4465235b072f46185bbd-thumb.jpg",
+          "originalSha256": "d32a4465235b072f46185bbd861856d27c615685653ae155209122ff14d2f54b"
         }
       ]
     },
@@ -1109,7 +1174,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-merganser/photo-b88501e5a603b2e3a025910a.jpg",
-          "thumbnail": "images/common-merganser/photo-b88501e5a603b2e3a025910a-thumb.jpg"
+          "thumbnail": "images/common-merganser/photo-b88501e5a603b2e3a025910a-thumb.jpg",
+          "originalSha256": "b88501e5a603b2e3a025910a94f2a113d890558a5c04798b4a0c099c3223c71a"
         },
         {
           "id": "photo-cebb89ab999815b261fd31a4",
@@ -1124,7 +1190,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-merganser/photo-cebb89ab999815b261fd31a4.jpg",
-          "thumbnail": "images/common-merganser/photo-cebb89ab999815b261fd31a4-thumb.jpg"
+          "thumbnail": "images/common-merganser/photo-cebb89ab999815b261fd31a4-thumb.jpg",
+          "originalSha256": "cebb89ab999815b261fd31a4f49955cf4b3efcada6dfed219e801d3127afa2a5"
         },
         {
           "id": "photo-a42f83885527124d3ff6675a",
@@ -1139,7 +1206,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-merganser/photo-a42f83885527124d3ff6675a.jpg",
-          "thumbnail": "images/common-merganser/photo-a42f83885527124d3ff6675a-thumb.jpg"
+          "thumbnail": "images/common-merganser/photo-a42f83885527124d3ff6675a-thumb.jpg",
+          "originalSha256": "a42f83885527124d3ff6675abdebe575275b303b87e153c4730a42d9c50a011b"
         },
         {
           "id": "photo-50e2d50c83bada4384fa6a5b",
@@ -1154,7 +1222,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-merganser/photo-50e2d50c83bada4384fa6a5b.jpg",
-          "thumbnail": "images/common-merganser/photo-50e2d50c83bada4384fa6a5b-thumb.jpg"
+          "thumbnail": "images/common-merganser/photo-50e2d50c83bada4384fa6a5b-thumb.jpg",
+          "originalSha256": "50e2d50c83bada4384fa6a5bbd2690a2cdfa5709e0be5f8e4d3138349bff69d6"
         },
         {
           "id": "photo-1a4c0ebda412406097cd359e",
@@ -1169,7 +1238,8 @@
           "caption": "A female Common Merganser resting beside her ducklings.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-merganser/photo-1a4c0ebda412406097cd359e.jpg",
-          "thumbnail": "images/common-merganser/photo-1a4c0ebda412406097cd359e-thumb.jpg"
+          "thumbnail": "images/common-merganser/photo-1a4c0ebda412406097cd359e-thumb.jpg",
+          "originalSha256": "1a4c0ebda412406097cd359e3f0f22c85a291d59b828329a4d8c1133520d3c3c"
         },
         {
           "id": "photo-615a4db939d1a08a6b270239",
@@ -1184,7 +1254,8 @@
           "caption": "A young Common Merganser.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-merganser/photo-615a4db939d1a08a6b270239.jpg",
-          "thumbnail": "images/common-merganser/photo-615a4db939d1a08a6b270239-thumb.jpg"
+          "thumbnail": "images/common-merganser/photo-615a4db939d1a08a6b270239-thumb.jpg",
+          "originalSha256": "615a4db939d1a08a6b2702391da5e7fecb35c5ba298575a3c6d1447e7922c531"
         },
         {
           "id": "photo-415948921a64d8e53f266036",
@@ -1199,7 +1270,8 @@
           "caption": "A Common Merganser catching a fish.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-merganser/photo-415948921a64d8e53f266036.jpg",
-          "thumbnail": "images/common-merganser/photo-415948921a64d8e53f266036-thumb.jpg"
+          "thumbnail": "images/common-merganser/photo-415948921a64d8e53f266036-thumb.jpg",
+          "originalSha256": "415948921a64d8e53f266036d9809ec7e9cb3de0d782049c1f7f2f1a7b49aeba"
         },
         {
           "id": "photo-d6b7acb1cbecbf253c91a058",
@@ -1214,7 +1286,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-merganser/photo-d6b7acb1cbecbf253c91a058.jpg",
-          "thumbnail": "images/common-merganser/photo-d6b7acb1cbecbf253c91a058-thumb.jpg"
+          "thumbnail": "images/common-merganser/photo-d6b7acb1cbecbf253c91a058-thumb.jpg",
+          "originalSha256": "d6b7acb1cbecbf253c91a0586bbfe50bdf565d9ac86596d98c803f7a7fee2e27"
         },
         {
           "id": "photo-981e077d15821e0337179183",
@@ -1229,7 +1302,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-merganser/photo-981e077d15821e0337179183.jpg",
-          "thumbnail": "images/common-merganser/photo-981e077d15821e0337179183-thumb.jpg"
+          "thumbnail": "images/common-merganser/photo-981e077d15821e0337179183-thumb.jpg",
+          "originalSha256": "981e077d15821e0337179183d41aa1f468536e68704ffa1ed751ed1756e52c0e"
         },
         {
           "id": "photo-0b70bc9b2d7f7c7bafbf1792",
@@ -1244,7 +1318,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-merganser/photo-0b70bc9b2d7f7c7bafbf1792.jpg",
-          "thumbnail": "images/common-merganser/photo-0b70bc9b2d7f7c7bafbf1792-thumb.jpg"
+          "thumbnail": "images/common-merganser/photo-0b70bc9b2d7f7c7bafbf1792-thumb.jpg",
+          "originalSha256": "0b70bc9b2d7f7c7bafbf17923ffef903e9cbab5be37631cc0e548b5599942053"
         },
         {
           "id": "photo-298e54eb625ce07dcfeba626",
@@ -1259,7 +1334,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-merganser/photo-298e54eb625ce07dcfeba626.jpg",
-          "thumbnail": "images/common-merganser/photo-298e54eb625ce07dcfeba626-thumb.jpg"
+          "thumbnail": "images/common-merganser/photo-298e54eb625ce07dcfeba626-thumb.jpg",
+          "originalSha256": "298e54eb625ce07dcfeba62647729406dc4ebc4edf2e2793f86a948118487d61"
         }
       ]
     },
@@ -1285,7 +1361,8 @@
           "caption": "A Common Tern carrying a fish.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-tern/photo-406907b7aecee7f6daa03edb.jpg",
-          "thumbnail": "images/common-tern/photo-406907b7aecee7f6daa03edb-thumb.jpg"
+          "thumbnail": "images/common-tern/photo-406907b7aecee7f6daa03edb-thumb.jpg",
+          "originalSha256": "406907b7aecee7f6daa03edbb9b3fc2b9eee460804e7bcced15ed3bb80395ebf"
         }
       ]
     },
@@ -1311,7 +1388,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/cooper-s-hawk/photo-c160b9fee670be796ad0f5b5.jpg",
-          "thumbnail": "images/cooper-s-hawk/photo-c160b9fee670be796ad0f5b5-thumb.jpg"
+          "thumbnail": "images/cooper-s-hawk/photo-c160b9fee670be796ad0f5b5-thumb.jpg",
+          "originalSha256": "c160b9fee670be796ad0f5b5bd3569f334a1d324228b227469ad24da3d58ae8c"
         },
         {
           "id": "photo-0f94a115902f07b52103ff8c",
@@ -1326,7 +1404,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/cooper-s-hawk/photo-0f94a115902f07b52103ff8c.jpg",
-          "thumbnail": "images/cooper-s-hawk/photo-0f94a115902f07b52103ff8c-thumb.jpg"
+          "thumbnail": "images/cooper-s-hawk/photo-0f94a115902f07b52103ff8c-thumb.jpg",
+          "originalSha256": "0f94a115902f07b52103ff8c890b0353a0484318debdc4eb29007bc635939d8b"
         }
       ],
       "identificationNote": "Provisional identification: the immature plumage appears consistent with Cooper's Hawk; Sharp-shinned Hawk is a possible alternative."
@@ -1353,7 +1432,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/coyote/photo-f794382d03fb1dcad98a8a26.jpg",
-          "thumbnail": "images/coyote/photo-f794382d03fb1dcad98a8a26-thumb.jpg"
+          "thumbnail": "images/coyote/photo-f794382d03fb1dcad98a8a26-thumb.jpg",
+          "originalSha256": "f794382d03fb1dcad98a8a263d74646ca6bbaf3dfb2869c7e13fe6737c0a9017"
         }
       ]
     },
@@ -1379,7 +1459,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/double-crested-cormorant/photo-eba21ccd28b82c6b12ccfd8b.jpg",
-          "thumbnail": "images/double-crested-cormorant/photo-eba21ccd28b82c6b12ccfd8b-thumb.jpg"
+          "thumbnail": "images/double-crested-cormorant/photo-eba21ccd28b82c6b12ccfd8b-thumb.jpg",
+          "originalSha256": "eba21ccd28b82c6b12ccfd8b8d3f2da411f52196182564fe962dd226d4da9e3f"
         },
         {
           "id": "photo-7f3822dc0f61b983c6c26ea6",
@@ -1394,7 +1475,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/double-crested-cormorant/photo-7f3822dc0f61b983c6c26ea6.jpg",
-          "thumbnail": "images/double-crested-cormorant/photo-7f3822dc0f61b983c6c26ea6-thumb.jpg"
+          "thumbnail": "images/double-crested-cormorant/photo-7f3822dc0f61b983c6c26ea6-thumb.jpg",
+          "originalSha256": "7f3822dc0f61b983c6c26ea6aa5f75b92f6a022614bc7490e3ba1369dc15f200"
         },
         {
           "id": "photo-f1df5dae20e0d1c9891ec59d",
@@ -1409,7 +1491,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/double-crested-cormorant/photo-f1df5dae20e0d1c9891ec59d.jpg",
-          "thumbnail": "images/double-crested-cormorant/photo-f1df5dae20e0d1c9891ec59d-thumb.jpg"
+          "thumbnail": "images/double-crested-cormorant/photo-f1df5dae20e0d1c9891ec59d-thumb.jpg",
+          "originalSha256": "f1df5dae20e0d1c9891ec59dbf249cd20f5bbc8bc18579dc75ccbe3828f6a634"
         }
       ]
     },
@@ -1435,7 +1518,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/downy-woodpecker/photo-055dda458db8dd6d676ec7fc.jpg",
-          "thumbnail": "images/downy-woodpecker/photo-055dda458db8dd6d676ec7fc-thumb.jpg"
+          "thumbnail": "images/downy-woodpecker/photo-055dda458db8dd6d676ec7fc-thumb.jpg",
+          "originalSha256": "055dda458db8dd6d676ec7fc4e32b512e1588d34d5321679fc4b18a12c3a81be"
         }
       ]
     },
@@ -1461,7 +1545,8 @@
           "caption": "A kangaroo portrait.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/eastern-grey-kangaroo/photo-4f2f283ea0b4e50e2a5bd380.jpg",
-          "thumbnail": "images/eastern-grey-kangaroo/photo-4f2f283ea0b4e50e2a5bd380-thumb.jpg"
+          "thumbnail": "images/eastern-grey-kangaroo/photo-4f2f283ea0b4e50e2a5bd380-thumb.jpg",
+          "originalSha256": "4f2f283ea0b4e50e2a5bd38094e84b55f79fe48550ad33936556db834a7b1f83"
         }
       ],
       "identificationNote": "Provisional identification: this close portrait appears to show an Eastern Grey Kangaroo. A wider view or the sighting location would help confirm the species."
@@ -1488,7 +1573,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/eastern-kingbird/photo-af013357a3acf3247f4c83df.jpg",
-          "thumbnail": "images/eastern-kingbird/photo-af013357a3acf3247f4c83df-thumb.jpg"
+          "thumbnail": "images/eastern-kingbird/photo-af013357a3acf3247f4c83df-thumb.jpg",
+          "originalSha256": "af013357a3acf3247f4c83dfd26fb595e43375e97166a7ab4a1118a4c497496b"
         },
         {
           "id": "photo-6ac14517c968f034f8910538",
@@ -1503,7 +1589,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/eastern-kingbird/photo-6ac14517c968f034f8910538.jpg",
-          "thumbnail": "images/eastern-kingbird/photo-6ac14517c968f034f8910538-thumb.jpg"
+          "thumbnail": "images/eastern-kingbird/photo-6ac14517c968f034f8910538-thumb.jpg",
+          "originalSha256": "6ac14517c968f034f8910538da841c896fda878391c9daa1e01804167d56d7a6"
         }
       ]
     },
@@ -1529,7 +1616,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/great-blue-heron/photo-e038142934641038db02dbfd.jpg",
-          "thumbnail": "images/great-blue-heron/photo-e038142934641038db02dbfd-thumb.jpg"
+          "thumbnail": "images/great-blue-heron/photo-e038142934641038db02dbfd-thumb.jpg",
+          "originalSha256": "e038142934641038db02dbfdc16f5631c2f49757a287516e68c0b11e40832bcd"
         },
         {
           "id": "photo-6744b0875d7f6c2493133b3f",
@@ -1544,7 +1632,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/great-blue-heron/photo-6744b0875d7f6c2493133b3f.jpg",
-          "thumbnail": "images/great-blue-heron/photo-6744b0875d7f6c2493133b3f-thumb.jpg"
+          "thumbnail": "images/great-blue-heron/photo-6744b0875d7f6c2493133b3f-thumb.jpg",
+          "originalSha256": "6744b0875d7f6c2493133b3f0d6122280651db8733325ce7281d72138a43b748"
         }
       ]
     },
@@ -1570,7 +1659,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-1237e7af225934575957bb29.jpg",
-          "thumbnail": "images/hooded-merganser/photo-1237e7af225934575957bb29-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-1237e7af225934575957bb29-thumb.jpg",
+          "originalSha256": "1237e7af225934575957bb2976a056406767ea5c47b13f695217763449bd34a8"
         },
         {
           "id": "photo-8f1e4eab99cf8b645b7b8ace",
@@ -1585,7 +1675,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-8f1e4eab99cf8b645b7b8ace.jpg",
-          "thumbnail": "images/hooded-merganser/photo-8f1e4eab99cf8b645b7b8ace-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-8f1e4eab99cf8b645b7b8ace-thumb.jpg",
+          "originalSha256": "8f1e4eab99cf8b645b7b8ace2423ddbc66c370e7f8ac0102e3f22a867678537b"
         },
         {
           "id": "photo-e8f614cb5a379a049c7b63f8",
@@ -1600,7 +1691,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-e8f614cb5a379a049c7b63f8.jpg",
-          "thumbnail": "images/hooded-merganser/photo-e8f614cb5a379a049c7b63f8-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-e8f614cb5a379a049c7b63f8-thumb.jpg",
+          "originalSha256": "e8f614cb5a379a049c7b63f8993f49317d22c5de59608b1929d6d97b43976a76"
         },
         {
           "id": "photo-f503f55cfe3cf2921775f4e2",
@@ -1615,7 +1707,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-f503f55cfe3cf2921775f4e2.jpg",
-          "thumbnail": "images/hooded-merganser/photo-f503f55cfe3cf2921775f4e2-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-f503f55cfe3cf2921775f4e2-thumb.jpg",
+          "originalSha256": "f503f55cfe3cf2921775f4e246bcecaf5b115e51e59ce819298dddf04067e6e6"
         },
         {
           "id": "photo-e0c4eecc3b93d108c60b85f1",
@@ -1630,7 +1723,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-e0c4eecc3b93d108c60b85f1.jpg",
-          "thumbnail": "images/hooded-merganser/photo-e0c4eecc3b93d108c60b85f1-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-e0c4eecc3b93d108c60b85f1-thumb.jpg",
+          "originalSha256": "e0c4eecc3b93d108c60b85f101a85423a408762a353ffddcbe60a4af84e53037"
         },
         {
           "id": "photo-93873858a47ebcacb5b25972",
@@ -1645,7 +1739,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-93873858a47ebcacb5b25972.jpg",
-          "thumbnail": "images/hooded-merganser/photo-93873858a47ebcacb5b25972-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-93873858a47ebcacb5b25972-thumb.jpg",
+          "originalSha256": "93873858a47ebcacb5b25972c05244faa7ca0e6c413ae09a5eccc84bc4d0af01"
         },
         {
           "id": "photo-25e20f007a888e3a4ad2d0d2",
@@ -1660,7 +1755,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-25e20f007a888e3a4ad2d0d2.jpg",
-          "thumbnail": "images/hooded-merganser/photo-25e20f007a888e3a4ad2d0d2-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-25e20f007a888e3a4ad2d0d2-thumb.jpg",
+          "originalSha256": "25e20f007a888e3a4ad2d0d2985ddab01146ce4ee32e073861f600c1c1faf5ea"
         },
         {
           "id": "photo-74113895724cfab09e51d708",
@@ -1675,7 +1771,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-74113895724cfab09e51d708.jpg",
-          "thumbnail": "images/hooded-merganser/photo-74113895724cfab09e51d708-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-74113895724cfab09e51d708-thumb.jpg",
+          "originalSha256": "74113895724cfab09e51d708c269cee0c6f55c8a095b42de919b84202a02c398"
         },
         {
           "id": "photo-1ce109c2d7b39c84288480f5",
@@ -1690,7 +1787,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-1ce109c2d7b39c84288480f5.jpg",
-          "thumbnail": "images/hooded-merganser/photo-1ce109c2d7b39c84288480f5-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-1ce109c2d7b39c84288480f5-thumb.jpg",
+          "originalSha256": "1ce109c2d7b39c84288480f5a6b2003db623149619463404ec1ae33080f0e89d"
         },
         {
           "id": "photo-440c6f13904b30de24249788",
@@ -1705,7 +1803,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-440c6f13904b30de24249788.jpg",
-          "thumbnail": "images/hooded-merganser/photo-440c6f13904b30de24249788-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-440c6f13904b30de24249788-thumb.jpg",
+          "originalSha256": "440c6f13904b30de242497889deb8bb900c610df24c4d0677444973be4a45a39"
         },
         {
           "id": "photo-1e9eb0b34e02029d0c6d49a5",
@@ -1720,7 +1819,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-1e9eb0b34e02029d0c6d49a5.jpg",
-          "thumbnail": "images/hooded-merganser/photo-1e9eb0b34e02029d0c6d49a5-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-1e9eb0b34e02029d0c6d49a5-thumb.jpg",
+          "originalSha256": "1e9eb0b34e02029d0c6d49a5eb5c595ce820682d3dc62cabf3f4c22f7833f132"
         },
         {
           "id": "photo-790f74ef606feb566cc3b983",
@@ -1735,7 +1835,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-790f74ef606feb566cc3b983.jpg",
-          "thumbnail": "images/hooded-merganser/photo-790f74ef606feb566cc3b983-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-790f74ef606feb566cc3b983-thumb.jpg",
+          "originalSha256": "790f74ef606feb566cc3b9831f9d0dcf53976749aedd7a962cc6d124a504f828"
         },
         {
           "id": "photo-acc3de0b866f9d156a8d9a02",
@@ -1750,7 +1851,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-acc3de0b866f9d156a8d9a02.jpg",
-          "thumbnail": "images/hooded-merganser/photo-acc3de0b866f9d156a8d9a02-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-acc3de0b866f9d156a8d9a02-thumb.jpg",
+          "originalSha256": "acc3de0b866f9d156a8d9a0231117b8d85fe2499f4486ad222da40a89f30a358"
         },
         {
           "id": "photo-6dde66dc415f3c7a62c50b70",
@@ -1765,7 +1867,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/hooded-merganser/photo-6dde66dc415f3c7a62c50b70.jpg",
-          "thumbnail": "images/hooded-merganser/photo-6dde66dc415f3c7a62c50b70-thumb.jpg"
+          "thumbnail": "images/hooded-merganser/photo-6dde66dc415f3c7a62c50b70-thumb.jpg",
+          "originalSha256": "6dde66dc415f3c7a62c50b70d051addc30ebd2831888a96ee24327ea517342ce"
         }
       ]
     },
@@ -1791,7 +1894,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/little-black-cormorant/photo-6c47a18e52969cc79594a15d.jpg",
-          "thumbnail": "images/little-black-cormorant/photo-6c47a18e52969cc79594a15d-thumb.jpg"
+          "thumbnail": "images/little-black-cormorant/photo-6c47a18e52969cc79594a15d-thumb.jpg",
+          "originalSha256": "6c47a18e52969cc79594a15db37d7d404fe2223f802c71f9dacf6e88a08a3dbb"
         }
       ]
     },
@@ -1817,7 +1921,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/little-corella/photo-3b33a36294f9a9066ed33dee.jpg",
-          "thumbnail": "images/little-corella/photo-3b33a36294f9a9066ed33dee-thumb.jpg"
+          "thumbnail": "images/little-corella/photo-3b33a36294f9a9066ed33dee-thumb.jpg",
+          "originalSha256": "3b33a36294f9a9066ed33deecf53e09adf0fbc1aa7340be2b028194de6f891ea"
         },
         {
           "id": "photo-eb8c63d8c6e4a029b7b41fbe",
@@ -1832,7 +1937,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/little-corella/photo-eb8c63d8c6e4a029b7b41fbe.jpg",
-          "thumbnail": "images/little-corella/photo-eb8c63d8c6e4a029b7b41fbe-thumb.jpg"
+          "thumbnail": "images/little-corella/photo-eb8c63d8c6e4a029b7b41fbe-thumb.jpg",
+          "originalSha256": "eb8c63d8c6e4a029b7b41fbe01891c885947434f4ddd59c29b80c37c772d74b9"
         }
       ]
     },
@@ -1858,7 +1964,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/little-pied-cormorant/photo-baa971b8fc1ee29619431140.jpg",
-          "thumbnail": "images/little-pied-cormorant/photo-baa971b8fc1ee29619431140-thumb.jpg"
+          "thumbnail": "images/little-pied-cormorant/photo-baa971b8fc1ee29619431140-thumb.jpg",
+          "originalSha256": "baa971b8fc1ee29619431140711b3ee9f1f367158b840256238aa973f735766e"
         }
       ]
     },
@@ -1884,7 +1991,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/long-billed-corella/photo-91171604e9520a045affdc0f.jpg",
-          "thumbnail": "images/long-billed-corella/photo-91171604e9520a045affdc0f-thumb.jpg"
+          "thumbnail": "images/long-billed-corella/photo-91171604e9520a045affdc0f-thumb.jpg",
+          "originalSha256": "91171604e9520a045affdc0fb189158760cb6c4871a0bf2603558d3efc67d3f0"
         },
         {
           "id": "photo-af6be8a3232bc18d6263e9d2",
@@ -1899,7 +2007,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/long-billed-corella/photo-af6be8a3232bc18d6263e9d2.jpg",
-          "thumbnail": "images/long-billed-corella/photo-af6be8a3232bc18d6263e9d2-thumb.jpg"
+          "thumbnail": "images/long-billed-corella/photo-af6be8a3232bc18d6263e9d2-thumb.jpg",
+          "originalSha256": "af6be8a3232bc18d6263e9d2eb53690ecf7ce71a1616bc64bbb51ef4ef31736a"
         }
       ]
     },
@@ -1925,7 +2034,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/mallard/photo-f9dc2a0c784191a3e5f2413f.jpg",
-          "thumbnail": "images/mallard/photo-f9dc2a0c784191a3e5f2413f-thumb.jpg"
+          "thumbnail": "images/mallard/photo-f9dc2a0c784191a3e5f2413f-thumb.jpg",
+          "originalSha256": "f9dc2a0c784191a3e5f2413f87c6151db636f128358dbe65a8b12dde031eaf7d"
         },
         {
           "id": "photo-3eba019d7a36395edc4424e5",
@@ -1940,7 +2050,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/mallard/photo-3eba019d7a36395edc4424e5.jpg",
-          "thumbnail": "images/mallard/photo-3eba019d7a36395edc4424e5-thumb.jpg"
+          "thumbnail": "images/mallard/photo-3eba019d7a36395edc4424e5-thumb.jpg",
+          "originalSha256": "3eba019d7a36395edc4424e5ba57fe302c51af1b1a44b945eac2b67c88f36e9a"
         },
         {
           "id": "photo-cfae3f6bd0e376cb4bdc0e7f",
@@ -1955,7 +2066,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/mallard/photo-cfae3f6bd0e376cb4bdc0e7f.jpg",
-          "thumbnail": "images/mallard/photo-cfae3f6bd0e376cb4bdc0e7f-thumb.jpg"
+          "thumbnail": "images/mallard/photo-cfae3f6bd0e376cb4bdc0e7f-thumb.jpg",
+          "originalSha256": "cfae3f6bd0e376cb4bdc0e7f1511090c227377f4470e5885c922d0f67a0be6c8"
         },
         {
           "id": "photo-dbec1c52c78b629f5d7d3565",
@@ -1970,7 +2082,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/mallard/photo-dbec1c52c78b629f5d7d3565.jpg",
-          "thumbnail": "images/mallard/photo-dbec1c52c78b629f5d7d3565-thumb.jpg"
+          "thumbnail": "images/mallard/photo-dbec1c52c78b629f5d7d3565-thumb.jpg",
+          "originalSha256": "dbec1c52c78b629f5d7d35653d92cf3bcf552eb9d21fdcbc682480bef9b9a942"
         },
         {
           "id": "photo-b680aa06317e8871e04b0a28",
@@ -1985,7 +2098,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/mallard/photo-b680aa06317e8871e04b0a28.jpg",
-          "thumbnail": "images/mallard/photo-b680aa06317e8871e04b0a28-thumb.jpg"
+          "thumbnail": "images/mallard/photo-b680aa06317e8871e04b0a28-thumb.jpg",
+          "originalSha256": "b680aa06317e8871e04b0a28ed30af8ad6111c49a3183c1a716a9c44be91d579"
         },
         {
           "id": "photo-f33dbdc399224e55d6a94340",
@@ -2000,7 +2114,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/mallard/photo-f33dbdc399224e55d6a94340.jpg",
-          "thumbnail": "images/mallard/photo-f33dbdc399224e55d6a94340-thumb.jpg"
+          "thumbnail": "images/mallard/photo-f33dbdc399224e55d6a94340-thumb.jpg",
+          "originalSha256": "f33dbdc399224e55d6a94340f96d2005010e1ad3ade454422e1b5e4ee1db8a42"
         },
         {
           "id": "photo-4af3d73004629acb82c795db",
@@ -2015,7 +2130,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/mallard/photo-4af3d73004629acb82c795db.jpg",
-          "thumbnail": "images/mallard/photo-4af3d73004629acb82c795db-thumb.jpg"
+          "thumbnail": "images/mallard/photo-4af3d73004629acb82c795db-thumb.jpg",
+          "originalSha256": "4af3d73004629acb82c795db9aaa41974bcad269c2ad3374c5998f6fa3852af3"
         },
         {
           "id": "photo-de049f2f256d3b76018af7e2",
@@ -2030,7 +2146,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/mallard/photo-de049f2f256d3b76018af7e2.jpg",
-          "thumbnail": "images/mallard/photo-de049f2f256d3b76018af7e2-thumb.jpg"
+          "thumbnail": "images/mallard/photo-de049f2f256d3b76018af7e2-thumb.jpg",
+          "originalSha256": "de049f2f256d3b76018af7e24d3410a77adeb052a9ce40fa4a0ec4e591e56a64"
         }
       ]
     },
@@ -2057,7 +2174,8 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/merlin/photo-5a5f34dc2c7ed14237aa175f.jpg",
           "thumbnail": "images/merlin/photo-5a5f34dc2c7ed14237aa175f-thumb.jpg",
-          "identificationNote": "Provisional identification: the flight photograph appears consistent with a Merlin. The plumage and tail bands are visible, but the sighting location would help confirm it."
+          "identificationNote": "Provisional identification: the flight photograph appears consistent with a Merlin. The plumage and tail bands are visible, but the sighting location would help confirm it.",
+          "originalSha256": "5a5f34dc2c7ed14237aa175f9781005f3e5e284dbc770d693a248f09b754e4ee"
         },
         {
           "id": "photo-31f70d4d6e5ac2a4e5000971",
@@ -2072,7 +2190,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/merlin/photo-31f70d4d6e5ac2a4e5000971.jpg",
-          "thumbnail": "images/merlin/photo-31f70d4d6e5ac2a4e5000971-thumb.jpg"
+          "thumbnail": "images/merlin/photo-31f70d4d6e5ac2a4e5000971-thumb.jpg",
+          "originalSha256": "31f70d4d6e5ac2a4e5000971bc0f7f85355e5099065be80af2ba8621c3b62b52"
         }
       ]
     },
@@ -2098,7 +2217,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/muskrat/photo-3b91cc0383ea593049d2fec6.jpg",
-          "thumbnail": "images/muskrat/photo-3b91cc0383ea593049d2fec6-thumb.jpg"
+          "thumbnail": "images/muskrat/photo-3b91cc0383ea593049d2fec6-thumb.jpg",
+          "originalSha256": "3b91cc0383ea593049d2fec69191e6de3525aceff41b8b9fa8e33b2309c75090"
         },
         {
           "id": "photo-b33bcc5606695ca484d28489",
@@ -2113,7 +2233,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/muskrat/photo-b33bcc5606695ca484d28489.jpg",
-          "thumbnail": "images/muskrat/photo-b33bcc5606695ca484d28489-thumb.jpg"
+          "thumbnail": "images/muskrat/photo-b33bcc5606695ca484d28489-thumb.jpg",
+          "originalSha256": "b33bcc5606695ca484d2848993630a7ef5521fc2d5594db69478d81c8878a47e"
         }
       ]
     },
@@ -2139,7 +2260,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/north-american-beaver/photo-a425d78bf92844048cb3774b.jpg",
-          "thumbnail": "images/north-american-beaver/photo-a425d78bf92844048cb3774b-thumb.jpg"
+          "thumbnail": "images/north-american-beaver/photo-a425d78bf92844048cb3774b-thumb.jpg",
+          "originalSha256": "a425d78bf92844048cb3774bf3f97e8eba9d2e5786465c2bc4c577e031f636fe"
         }
       ]
     },
@@ -2165,7 +2287,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-cardinal/photo-d9039e1eb7449ae49754031d.jpg",
-          "thumbnail": "images/northern-cardinal/photo-d9039e1eb7449ae49754031d-thumb.jpg"
+          "thumbnail": "images/northern-cardinal/photo-d9039e1eb7449ae49754031d-thumb.jpg",
+          "originalSha256": "d9039e1eb7449ae49754031da172bbc1fc41d749584b510b7ad9963e1e9e0e34"
         },
         {
           "id": "photo-9eba53aa1c6d0a44cf341f1b",
@@ -2180,7 +2303,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-cardinal/photo-9eba53aa1c6d0a44cf341f1b.jpg",
-          "thumbnail": "images/northern-cardinal/photo-9eba53aa1c6d0a44cf341f1b-thumb.jpg"
+          "thumbnail": "images/northern-cardinal/photo-9eba53aa1c6d0a44cf341f1b-thumb.jpg",
+          "originalSha256": "9eba53aa1c6d0a44cf341f1ba0aa1ce72c146ccc44819e6860b2d627aefa01fd"
         },
         {
           "id": "photo-6bfa3e24e29f305b88c30c3c",
@@ -2195,7 +2319,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-cardinal/photo-6bfa3e24e29f305b88c30c3c.jpg",
-          "thumbnail": "images/northern-cardinal/photo-6bfa3e24e29f305b88c30c3c-thumb.jpg"
+          "thumbnail": "images/northern-cardinal/photo-6bfa3e24e29f305b88c30c3c-thumb.jpg",
+          "originalSha256": "6bfa3e24e29f305b88c30c3c0e4413938e8030915be37c234a344cd308189535"
         },
         {
           "id": "photo-b399f3e08708c389a65de2ef",
@@ -2210,7 +2335,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-cardinal/photo-b399f3e08708c389a65de2ef.jpg",
-          "thumbnail": "images/northern-cardinal/photo-b399f3e08708c389a65de2ef-thumb.jpg"
+          "thumbnail": "images/northern-cardinal/photo-b399f3e08708c389a65de2ef-thumb.jpg",
+          "originalSha256": "b399f3e08708c389a65de2ef7eb78ffce78f675f74d98575d7ddabb8e36c4226"
         }
       ]
     },
@@ -2236,7 +2362,8 @@
           "caption": "A male Northern Pintail.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-pintail/photo-b5f6cd9e65c6bfa509eb0789.jpg",
-          "thumbnail": "images/northern-pintail/photo-b5f6cd9e65c6bfa509eb0789-thumb.jpg"
+          "thumbnail": "images/northern-pintail/photo-b5f6cd9e65c6bfa509eb0789-thumb.jpg",
+          "originalSha256": "b5f6cd9e65c6bfa509eb078936593cd02f12e2964e2eeb5a4548b794e3864e13"
         },
         {
           "id": "photo-4afb037b2712afb5b484bdaa",
@@ -2251,7 +2378,8 @@
           "caption": "A Northern Pintail with a Mallard in the background.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-pintail/photo-4afb037b2712afb5b484bdaa.jpg",
-          "thumbnail": "images/northern-pintail/photo-4afb037b2712afb5b484bdaa-thumb.jpg"
+          "thumbnail": "images/northern-pintail/photo-4afb037b2712afb5b484bdaa-thumb.jpg",
+          "originalSha256": "4afb037b2712afb5b484bdaa8f88394e894c6e993fd77ead555484dfcbf4f481"
         },
         {
           "id": "photo-17fd370b165257deaabd6a57",
@@ -2266,7 +2394,8 @@
           "caption": "A Northern Pintail with a Mallard in the background.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-pintail/photo-17fd370b165257deaabd6a57.jpg",
-          "thumbnail": "images/northern-pintail/photo-17fd370b165257deaabd6a57-thumb.jpg"
+          "thumbnail": "images/northern-pintail/photo-17fd370b165257deaabd6a57-thumb.jpg",
+          "originalSha256": "17fd370b165257deaabd6a57897942d0b5b9a914de97d52d9fb2349c2fcf0dc3"
         },
         {
           "id": "photo-76fd7e7d9f4c70138728f777",
@@ -2281,7 +2410,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-pintail/photo-76fd7e7d9f4c70138728f777.jpg",
-          "thumbnail": "images/northern-pintail/photo-76fd7e7d9f4c70138728f777-thumb.jpg"
+          "thumbnail": "images/northern-pintail/photo-76fd7e7d9f4c70138728f777-thumb.jpg",
+          "originalSha256": "76fd7e7d9f4c70138728f77771a4e97fb56f81c29e5747db80de4de661743e25"
         },
         {
           "id": "photo-6e064ac30926b9ffbe6ae84d",
@@ -2296,7 +2426,8 @@
           "caption": "Northern Pintails and Mallards together on the water.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-pintail/photo-6e064ac30926b9ffbe6ae84d.jpg",
-          "thumbnail": "images/northern-pintail/photo-6e064ac30926b9ffbe6ae84d-thumb.jpg"
+          "thumbnail": "images/northern-pintail/photo-6e064ac30926b9ffbe6ae84d-thumb.jpg",
+          "originalSha256": "6e064ac30926b9ffbe6ae84d3f0552e80f8873620bd36c973cfcd75ff5115808"
         }
       ]
     },
@@ -2322,7 +2453,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-shoveler/photo-a05a5297c7d739cb73e399dd.jpg",
-          "thumbnail": "images/northern-shoveler/photo-a05a5297c7d739cb73e399dd-thumb.jpg"
+          "thumbnail": "images/northern-shoveler/photo-a05a5297c7d739cb73e399dd-thumb.jpg",
+          "originalSha256": "a05a5297c7d739cb73e399dd1fb8ffcea1cf34b558ffe12b6ea2dd85cc891e6c"
         },
         {
           "id": "photo-60a31e1afbc1847636388ce3",
@@ -2337,7 +2469,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-shoveler/photo-60a31e1afbc1847636388ce3.jpg",
-          "thumbnail": "images/northern-shoveler/photo-60a31e1afbc1847636388ce3-thumb.jpg"
+          "thumbnail": "images/northern-shoveler/photo-60a31e1afbc1847636388ce3-thumb.jpg",
+          "originalSha256": "60a31e1afbc1847636388ce310440d5f75b92a9f198396ad0d3d43768bad7c82"
         },
         {
           "id": "photo-518e398e4dc58a42c4e053f9",
@@ -2352,7 +2485,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-shoveler/photo-518e398e4dc58a42c4e053f9.jpg",
-          "thumbnail": "images/northern-shoveler/photo-518e398e4dc58a42c4e053f9-thumb.jpg"
+          "thumbnail": "images/northern-shoveler/photo-518e398e4dc58a42c4e053f9-thumb.jpg",
+          "originalSha256": "518e398e4dc58a42c4e053f96fff04e568c693f25596b935216fa2b974616a9c"
         }
       ]
     },
@@ -2378,7 +2512,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/osprey/photo-a2e092e57d849040f9814a36.jpg",
-          "thumbnail": "images/osprey/photo-a2e092e57d849040f9814a36-thumb.jpg"
+          "thumbnail": "images/osprey/photo-a2e092e57d849040f9814a36-thumb.jpg",
+          "originalSha256": "a2e092e57d849040f9814a36aac56d03589b99c38fc7d13ef27dbee9ac8754d5"
         },
         {
           "id": "photo-332fe60a14aae4c889f77461",
@@ -2393,7 +2528,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/osprey/photo-332fe60a14aae4c889f77461.jpg",
-          "thumbnail": "images/osprey/photo-332fe60a14aae4c889f77461-thumb.jpg"
+          "thumbnail": "images/osprey/photo-332fe60a14aae4c889f77461-thumb.jpg",
+          "originalSha256": "332fe60a14aae4c889f7746136d9898a80ad266a14a2642ea7305a1aef0875ee"
         },
         {
           "id": "photo-f0f2496d6e5f8a4221d76850",
@@ -2408,7 +2544,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/osprey/photo-f0f2496d6e5f8a4221d76850.jpg",
-          "thumbnail": "images/osprey/photo-f0f2496d6e5f8a4221d76850-thumb.jpg"
+          "thumbnail": "images/osprey/photo-f0f2496d6e5f8a4221d76850-thumb.jpg",
+          "originalSha256": "f0f2496d6e5f8a4221d76850ce52821933b870056c5b221a92645d795cde0006"
         },
         {
           "id": "photo-0d72616e763eabc16c3693d5",
@@ -2423,7 +2560,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/osprey/photo-0d72616e763eabc16c3693d5.jpg",
-          "thumbnail": "images/osprey/photo-0d72616e763eabc16c3693d5-thumb.jpg"
+          "thumbnail": "images/osprey/photo-0d72616e763eabc16c3693d5-thumb.jpg",
+          "originalSha256": "0d72616e763eabc16c3693d556c9daf81ca5c8898ec12d623da06fd57261362c"
         }
       ]
     },
@@ -2449,7 +2587,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/palm-warbler/photo-6748e443477d0e40ea4bcafb.jpg",
-          "thumbnail": "images/palm-warbler/photo-6748e443477d0e40ea4bcafb-thumb.jpg"
+          "thumbnail": "images/palm-warbler/photo-6748e443477d0e40ea4bcafb-thumb.jpg",
+          "originalSha256": "6748e443477d0e40ea4bcafb6dcadcd1cd084e275998814c44f6da0ba2231fad"
         }
       ]
     },
@@ -2475,7 +2614,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/rainbow-lorikeet/photo-7278b610ea18c44755810b25.jpg",
-          "thumbnail": "images/rainbow-lorikeet/photo-7278b610ea18c44755810b25-thumb.jpg"
+          "thumbnail": "images/rainbow-lorikeet/photo-7278b610ea18c44755810b25-thumb.jpg",
+          "originalSha256": "7278b610ea18c44755810b252b04ea528b5ee801fffa4d46f65c761ccc7c9f49"
         }
       ]
     },
@@ -2501,7 +2641,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-tailed-hawk/photo-9638f45d9e12b6549f20884c.jpg",
-          "thumbnail": "images/red-tailed-hawk/photo-9638f45d9e12b6549f20884c-thumb.jpg"
+          "thumbnail": "images/red-tailed-hawk/photo-9638f45d9e12b6549f20884c-thumb.jpg",
+          "originalSha256": "9638f45d9e12b6549f20884c26d333f0e4f848de375ffbd00e11982154f3bf6d"
         },
         {
           "id": "photo-b5dd3972f77471b093d5d4e4",
@@ -2516,7 +2657,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-tailed-hawk/photo-b5dd3972f77471b093d5d4e4.jpg",
-          "thumbnail": "images/red-tailed-hawk/photo-b5dd3972f77471b093d5d4e4-thumb.jpg"
+          "thumbnail": "images/red-tailed-hawk/photo-b5dd3972f77471b093d5d4e4-thumb.jpg",
+          "originalSha256": "b5dd3972f77471b093d5d4e487301d16d1da0309852fa5c5e02c9420c0a3993b"
         },
         {
           "id": "photo-cfb16b05749a862cae2a54a5",
@@ -2531,7 +2673,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-tailed-hawk/photo-cfb16b05749a862cae2a54a5.jpg",
-          "thumbnail": "images/red-tailed-hawk/photo-cfb16b05749a862cae2a54a5-thumb.jpg"
+          "thumbnail": "images/red-tailed-hawk/photo-cfb16b05749a862cae2a54a5-thumb.jpg",
+          "originalSha256": "cfb16b05749a862cae2a54a51d2e0e765f84f2e8b94dc2ff9477c4c9d57f6dee"
         }
       ]
     },
@@ -2557,7 +2700,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-winged-blackbird/photo-abdaecf06c2001a3a2853ab2.jpg",
-          "thumbnail": "images/red-winged-blackbird/photo-abdaecf06c2001a3a2853ab2-thumb.jpg"
+          "thumbnail": "images/red-winged-blackbird/photo-abdaecf06c2001a3a2853ab2-thumb.jpg",
+          "originalSha256": "abdaecf06c2001a3a2853ab210a5d68abdfd2fef87bbd7023c9fb2187e749b50"
         },
         {
           "id": "photo-0652ee933ce8e85aa46f2ff0",
@@ -2572,7 +2716,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-winged-blackbird/photo-0652ee933ce8e85aa46f2ff0.jpg",
-          "thumbnail": "images/red-winged-blackbird/photo-0652ee933ce8e85aa46f2ff0-thumb.jpg"
+          "thumbnail": "images/red-winged-blackbird/photo-0652ee933ce8e85aa46f2ff0-thumb.jpg",
+          "originalSha256": "0652ee933ce8e85aa46f2ff0e91ac19c0acffc1676a0c650a8cbe8f46ed39dc0"
         },
         {
           "id": "photo-f8880a8431ff736a8a67cd44",
@@ -2587,7 +2732,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-winged-blackbird/photo-f8880a8431ff736a8a67cd44.jpg",
-          "thumbnail": "images/red-winged-blackbird/photo-f8880a8431ff736a8a67cd44-thumb.jpg"
+          "thumbnail": "images/red-winged-blackbird/photo-f8880a8431ff736a8a67cd44-thumb.jpg",
+          "originalSha256": "f8880a8431ff736a8a67cd440cb2d73da5a08c22be9b2801dd0f53e068ff24c3"
         },
         {
           "id": "photo-6f0a92657f6b8ebcd22c2024",
@@ -2602,7 +2748,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-winged-blackbird/photo-6f0a92657f6b8ebcd22c2024.jpg",
-          "thumbnail": "images/red-winged-blackbird/photo-6f0a92657f6b8ebcd22c2024-thumb.jpg"
+          "thumbnail": "images/red-winged-blackbird/photo-6f0a92657f6b8ebcd22c2024-thumb.jpg",
+          "originalSha256": "6f0a92657f6b8ebcd22c20243db2ea66e497580120f1a97014b2c8faf437ccdb"
         },
         {
           "id": "photo-c0cb402b681ec8601cb5d62f",
@@ -2617,7 +2764,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-winged-blackbird/photo-c0cb402b681ec8601cb5d62f.jpg",
-          "thumbnail": "images/red-winged-blackbird/photo-c0cb402b681ec8601cb5d62f-thumb.jpg"
+          "thumbnail": "images/red-winged-blackbird/photo-c0cb402b681ec8601cb5d62f-thumb.jpg",
+          "originalSha256": "c0cb402b681ec8601cb5d62fdcdf25885f083cfa0e6d8f589638639a21db6fc9"
         },
         {
           "id": "photo-59656f81245e9af1b9ae7501",
@@ -2632,7 +2780,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-winged-blackbird/photo-59656f81245e9af1b9ae7501.jpg",
-          "thumbnail": "images/red-winged-blackbird/photo-59656f81245e9af1b9ae7501-thumb.jpg"
+          "thumbnail": "images/red-winged-blackbird/photo-59656f81245e9af1b9ae7501-thumb.jpg",
+          "originalSha256": "59656f81245e9af1b9ae75015a08e0ac93fca168bdf71802adf137c9da014c0e"
         },
         {
           "id": "photo-17929dfc20e16a7748e79420",
@@ -2647,7 +2796,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-winged-blackbird/photo-17929dfc20e16a7748e79420.jpg",
-          "thumbnail": "images/red-winged-blackbird/photo-17929dfc20e16a7748e79420-thumb.jpg"
+          "thumbnail": "images/red-winged-blackbird/photo-17929dfc20e16a7748e79420-thumb.jpg",
+          "originalSha256": "17929dfc20e16a7748e79420af3ee6f881507a696a7e3e9e32f4d074ac2b701b"
         },
         {
           "id": "photo-05340810e8d857850211e163",
@@ -2662,7 +2812,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-winged-blackbird/photo-05340810e8d857850211e163.jpg",
-          "thumbnail": "images/red-winged-blackbird/photo-05340810e8d857850211e163-thumb.jpg"
+          "thumbnail": "images/red-winged-blackbird/photo-05340810e8d857850211e163-thumb.jpg",
+          "originalSha256": "05340810e8d857850211e163d58e43964ade16065dab04dba47fd2394c9e8aef"
         },
         {
           "id": "photo-87d9a69baf9ec0bac5844b7d",
@@ -2677,7 +2828,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/red-winged-blackbird/photo-87d9a69baf9ec0bac5844b7d.jpg",
-          "thumbnail": "images/red-winged-blackbird/photo-87d9a69baf9ec0bac5844b7d-thumb.jpg"
+          "thumbnail": "images/red-winged-blackbird/photo-87d9a69baf9ec0bac5844b7d-thumb.jpg",
+          "originalSha256": "87d9a69baf9ec0bac5844b7db8ac5aa6cfdb9b2694da64f5cdfc4c47e4592ff1"
         }
       ]
     },
@@ -2703,7 +2855,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/ring-billed-gull/photo-68c7bda45ffbb5948cf49f03.jpg",
-          "thumbnail": "images/ring-billed-gull/photo-68c7bda45ffbb5948cf49f03-thumb.jpg"
+          "thumbnail": "images/ring-billed-gull/photo-68c7bda45ffbb5948cf49f03-thumb.jpg",
+          "originalSha256": "68c7bda45ffbb5948cf49f0397188d10b007d52759f19ded74b000277ba81aeb"
         },
         {
           "id": "photo-22d60894c58c93101a78d835",
@@ -2718,7 +2871,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/ring-billed-gull/photo-22d60894c58c93101a78d835.jpg",
-          "thumbnail": "images/ring-billed-gull/photo-22d60894c58c93101a78d835-thumb.jpg"
+          "thumbnail": "images/ring-billed-gull/photo-22d60894c58c93101a78d835-thumb.jpg",
+          "originalSha256": "22d60894c58c93101a78d83594891237243bd5f8468d6c598f93f3aec1cf2765"
         },
         {
           "id": "photo-96408dea459a354246b2bb26",
@@ -2733,7 +2887,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/ring-billed-gull/photo-96408dea459a354246b2bb26.jpg",
-          "thumbnail": "images/ring-billed-gull/photo-96408dea459a354246b2bb26-thumb.jpg"
+          "thumbnail": "images/ring-billed-gull/photo-96408dea459a354246b2bb26-thumb.jpg",
+          "originalSha256": "96408dea459a354246b2bb26877912ba389c4a941a44ce7fb12be92289699b7c"
         }
       ]
     },
@@ -2759,7 +2914,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-194036860dd3ac9acc3a8ea4.jpg",
-          "thumbnail": "images/snowy-owl/photo-194036860dd3ac9acc3a8ea4-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-194036860dd3ac9acc3a8ea4-thumb.jpg",
+          "originalSha256": "194036860dd3ac9acc3a8ea459301543b80b9666f6351f3975c426166d652000"
         },
         {
           "id": "photo-804ada2549cc51c12d777aa0",
@@ -2774,7 +2930,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-804ada2549cc51c12d777aa0.jpg",
-          "thumbnail": "images/snowy-owl/photo-804ada2549cc51c12d777aa0-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-804ada2549cc51c12d777aa0-thumb.jpg",
+          "originalSha256": "804ada2549cc51c12d777aa05366c64eb4a91266dd4207a3d0fd85e0d7ae79f0"
         },
         {
           "id": "photo-279223f46bffb95de95f8f5e",
@@ -2789,7 +2946,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-279223f46bffb95de95f8f5e.jpg",
-          "thumbnail": "images/snowy-owl/photo-279223f46bffb95de95f8f5e-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-279223f46bffb95de95f8f5e-thumb.jpg",
+          "originalSha256": "279223f46bffb95de95f8f5eea059affe91dec0873c17e17fe185e208346c4f4"
         },
         {
           "id": "photo-2bdf56c1c7cd364506cebf4e",
@@ -2804,7 +2962,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-2bdf56c1c7cd364506cebf4e.jpg",
-          "thumbnail": "images/snowy-owl/photo-2bdf56c1c7cd364506cebf4e-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-2bdf56c1c7cd364506cebf4e-thumb.jpg",
+          "originalSha256": "2bdf56c1c7cd364506cebf4e8d3c0acb383bb666286bc7b12a69000d6ffac9ea"
         },
         {
           "id": "photo-2c0a55e1bcf47e857478943f",
@@ -2819,7 +2978,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-2c0a55e1bcf47e857478943f.jpg",
-          "thumbnail": "images/snowy-owl/photo-2c0a55e1bcf47e857478943f-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-2c0a55e1bcf47e857478943f-thumb.jpg",
+          "originalSha256": "2c0a55e1bcf47e857478943fba2fa2e225ec295ef0ed4765fd01057956493090"
         },
         {
           "id": "photo-d5603b2af3392bb3c3839d10",
@@ -2834,7 +2994,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-d5603b2af3392bb3c3839d10.jpg",
-          "thumbnail": "images/snowy-owl/photo-d5603b2af3392bb3c3839d10-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-d5603b2af3392bb3c3839d10-thumb.jpg",
+          "originalSha256": "d5603b2af3392bb3c3839d10f45e3832517853317b658f949e68d2e80d800765"
         },
         {
           "id": "photo-f7cb4790f71f4ee68f47bd44",
@@ -2849,7 +3010,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-f7cb4790f71f4ee68f47bd44.jpg",
-          "thumbnail": "images/snowy-owl/photo-f7cb4790f71f4ee68f47bd44-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-f7cb4790f71f4ee68f47bd44-thumb.jpg",
+          "originalSha256": "f7cb4790f71f4ee68f47bd44fb4749422aa1fdd568d32d4b63105dff095f0268"
         },
         {
           "id": "photo-484679ff6806e5db8c36545d",
@@ -2864,7 +3026,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-484679ff6806e5db8c36545d.jpg",
-          "thumbnail": "images/snowy-owl/photo-484679ff6806e5db8c36545d-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-484679ff6806e5db8c36545d-thumb.jpg",
+          "originalSha256": "484679ff6806e5db8c36545db3c5aeccbc7e4293f7b0ddbba8c94f5094f5d5bf"
         },
         {
           "id": "photo-2b7092b0c650834f3cb77478",
@@ -2879,7 +3042,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-2b7092b0c650834f3cb77478.jpg",
-          "thumbnail": "images/snowy-owl/photo-2b7092b0c650834f3cb77478-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-2b7092b0c650834f3cb77478-thumb.jpg",
+          "originalSha256": "2b7092b0c650834f3cb7747889938ddca85ca855794296b89564cdad4a0ff5a7"
         },
         {
           "id": "photo-ff80d309464bc60b6fea51bb",
@@ -2894,7 +3058,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-ff80d309464bc60b6fea51bb.jpg",
-          "thumbnail": "images/snowy-owl/photo-ff80d309464bc60b6fea51bb-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-ff80d309464bc60b6fea51bb-thumb.jpg",
+          "originalSha256": "ff80d309464bc60b6fea51bbaca625e57bf6db25293f9c8264a59a4f68d9d7b0"
         },
         {
           "id": "photo-cba2ac020aa506fa7572b03d",
@@ -2909,7 +3074,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-cba2ac020aa506fa7572b03d.jpg",
-          "thumbnail": "images/snowy-owl/photo-cba2ac020aa506fa7572b03d-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-cba2ac020aa506fa7572b03d-thumb.jpg",
+          "originalSha256": "cba2ac020aa506fa7572b03dec5c0992c48ad05640f6c44b6ac5e5093b4ee4e9"
         },
         {
           "id": "photo-a6450bbb81b70371b9ee0c2f",
@@ -2924,7 +3090,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/snowy-owl/photo-a6450bbb81b70371b9ee0c2f.jpg",
-          "thumbnail": "images/snowy-owl/photo-a6450bbb81b70371b9ee0c2f-thumb.jpg"
+          "thumbnail": "images/snowy-owl/photo-a6450bbb81b70371b9ee0c2f-thumb.jpg",
+          "originalSha256": "a6450bbb81b70371b9ee0c2f3e2e454c369a1b518bfec6349343bea839fa0573"
         }
       ]
     },
@@ -2950,7 +3117,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/song-sparrow/photo-17014c00cd79389f6130b7b6.jpg",
-          "thumbnail": "images/song-sparrow/photo-17014c00cd79389f6130b7b6-thumb.jpg"
+          "thumbnail": "images/song-sparrow/photo-17014c00cd79389f6130b7b6-thumb.jpg",
+          "originalSha256": "17014c00cd79389f6130b7b6bf91a5a42421d3e88cdcc3b218837ae8723913b9"
         },
         {
           "id": "photo-55db4c2c196dd59ddde74a90",
@@ -2965,7 +3133,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/song-sparrow/photo-55db4c2c196dd59ddde74a90.jpg",
-          "thumbnail": "images/song-sparrow/photo-55db4c2c196dd59ddde74a90-thumb.jpg"
+          "thumbnail": "images/song-sparrow/photo-55db4c2c196dd59ddde74a90-thumb.jpg",
+          "originalSha256": "55db4c2c196dd59ddde74a908e7dffb167e263485c9b485e8c0c71824690d00b"
         }
       ]
     },
@@ -2991,7 +3160,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/sulphur-crested-cockatoo/photo-afe6d971ef4e23199b9fabad.jpg",
-          "thumbnail": "images/sulphur-crested-cockatoo/photo-afe6d971ef4e23199b9fabad-thumb.jpg"
+          "thumbnail": "images/sulphur-crested-cockatoo/photo-afe6d971ef4e23199b9fabad-thumb.jpg",
+          "originalSha256": "afe6d971ef4e23199b9fabad4cd18435064bad601e6ab1c7e9f1f44931911e54"
         },
         {
           "id": "photo-082cf370e43e445c3ce8cceb",
@@ -3006,7 +3176,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/sulphur-crested-cockatoo/photo-082cf370e43e445c3ce8cceb.jpg",
-          "thumbnail": "images/sulphur-crested-cockatoo/photo-082cf370e43e445c3ce8cceb-thumb.jpg"
+          "thumbnail": "images/sulphur-crested-cockatoo/photo-082cf370e43e445c3ce8cceb-thumb.jpg",
+          "originalSha256": "082cf370e43e445c3ce8cceb8a150985291b3a647ff1587f7be7ebdd9d9acbce"
         }
       ]
     },
@@ -3032,7 +3203,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/white-breasted-nuthatch/photo-1e2fa1b0a9a1457623e32547.jpg",
-          "thumbnail": "images/white-breasted-nuthatch/photo-1e2fa1b0a9a1457623e32547-thumb.jpg"
+          "thumbnail": "images/white-breasted-nuthatch/photo-1e2fa1b0a9a1457623e32547-thumb.jpg",
+          "originalSha256": "1e2fa1b0a9a1457623e3254782df87555ff27f2c0657d8059c0d39ec4b5c23ec"
         },
         {
           "id": "photo-e69e275bd53b46fd3ebc1e64",
@@ -3047,7 +3219,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/white-breasted-nuthatch/photo-e69e275bd53b46fd3ebc1e64.jpg",
-          "thumbnail": "images/white-breasted-nuthatch/photo-e69e275bd53b46fd3ebc1e64-thumb.jpg"
+          "thumbnail": "images/white-breasted-nuthatch/photo-e69e275bd53b46fd3ebc1e64-thumb.jpg",
+          "originalSha256": "e69e275bd53b46fd3ebc1e64ce364734e5c977d4da8b1bba6a524a00c2998b8b"
         }
       ]
     },
@@ -3073,7 +3246,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/white-throated-sparrow/photo-2977f6be12b0fc0ee6d48727.jpg",
-          "thumbnail": "images/white-throated-sparrow/photo-2977f6be12b0fc0ee6d48727-thumb.jpg"
+          "thumbnail": "images/white-throated-sparrow/photo-2977f6be12b0fc0ee6d48727-thumb.jpg",
+          "originalSha256": "2977f6be12b0fc0ee6d48727bf6edf63d16496ba6e7a95b761cf29d98a0787a1"
         }
       ]
     },
@@ -3099,7 +3273,8 @@
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/wild-turkey/photo-bb7b6d9088750b570c8293b6.jpg",
-          "thumbnail": "images/wild-turkey/photo-bb7b6d9088750b570c8293b6-thumb.jpg"
+          "thumbnail": "images/wild-turkey/photo-bb7b6d9088750b570c8293b6-thumb.jpg",
+          "originalSha256": "bb7b6d9088750b570c8293b6e026a9231c4c130306c9690ae9dd2fd4ee4342c2"
         }
       ]
     },
@@ -3125,7 +3300,8 @@
           "caption": "A female Wood Duck with ducklings.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/wood-duck/photo-534b6276cbb136316c028b57.jpg",
-          "thumbnail": "images/wood-duck/photo-534b6276cbb136316c028b57-thumb.jpg"
+          "thumbnail": "images/wood-duck/photo-534b6276cbb136316c028b57-thumb.jpg",
+          "originalSha256": "534b6276cbb136316c028b57a47700eab1cdab843ae75c38b97c2892d9f9b326"
         },
         {
           "id": "photo-eb137e5ac8e0bdbae50fde23",
@@ -3140,7 +3316,8 @@
           "caption": "A young Wood Duck.",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/wood-duck/photo-eb137e5ac8e0bdbae50fde23.jpg",
-          "thumbnail": "images/wood-duck/photo-eb137e5ac8e0bdbae50fde23-thumb.jpg"
+          "thumbnail": "images/wood-duck/photo-eb137e5ac8e0bdbae50fde23-thumb.jpg",
+          "originalSha256": "eb137e5ac8e0bdbae50fde23901bffe8e9aa6b11dc89d8eac8f4e2b3870888e4"
         }
       ]
     }

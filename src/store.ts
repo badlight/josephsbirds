@@ -1,6 +1,6 @@
-import { nameKey,mergeChanges,validateCollection } from "./collection";
-import { setPhotoPreviews,type Asset,type Bird,type BirdPhoto,type Catalogue,type Change,type Collection,type PhotoDetails } from "./models";
-import { publishChanges } from "./publisher";
+import { nameKey,mergeChanges,validateCollection,activeCollection,draftIdentifiers } from "./collection.ts";
+import { setPhotoPreviews,type Asset,type Bird,type BirdPhoto,type Catalogue,type Change,type Collection,type PhotoDetails,type AlbumDetails } from "./models.ts";
+import { publishChanges } from "./publisher.ts";
 
 export const manageMode = new URL(window.location.href).searchParams.get("manage") === "1";
 let database: Promise<IDBDatabase>|undefined;
@@ -10,7 +10,7 @@ let writes: Promise<unknown>=Promise.resolve();
 function openDatabase() {
   if(!window.indexedDB) return Promise.reject(Error("Draft storage is unavailable in this browser."));
   if(!database) database=new Promise((resolve,reject)=>{
-    const request=indexedDB.open("josephs-birds-editor-v1",1);
+    const request=window.indexedDB.open("josephs-birds-editor-v1",1);
     request.onupgradeneeded=()=>request.result.createObjectStore("drafts");
     request.onsuccess=()=>resolve(request.result);
     request.onerror=()=>{database=undefined;reject(request.error);};
@@ -26,6 +26,7 @@ async function readDraft(): Promise<Change[]> {
   });
 }
 async function writeDraft(next: Change[]) {
+  next=next.filter(c=>{const ids=draftIdentifiers([c]);return ids.pendingPhotoIds.length||ids.pendingAlbumIds.length||c.assets.length;});
   const db=await openDatabase();
   await new Promise<void>((resolve,reject)=>{
     const transaction=db.transaction("drafts","readwrite");
@@ -52,7 +53,7 @@ export async function loadCatalogue(): Promise<Catalogue> {
   }
   const visible=manageMode?mergeChanges(collection,changes):collection;
   setPhotoPreviews(manageMode?changes.flatMap(change=>change.assets):[]);
-  return {...visible,canManage:manageMode,draftCount:changes.length};
+  return {...(manageMode?{...visible,birds:visible.birds.map(b=>({...b,photos:[...b.photos].sort((a,b)=>(a.sortOrder??Number.MAX_SAFE_INTEGER)-(b.sortOrder??Number.MAX_SAFE_INTEGER))}))}:activeCollection(visible)),canManage:manageMode,draftCount:changes.length,...draftIdentifiers(changes)};
 }
 function editingBird(id: string): Change {
   const existing=changes.find(change=>change.bird.id===id);
@@ -62,7 +63,7 @@ function editingBird(id: string): Change {
   return {bird:structuredClone(bird),base:structuredClone(bird),assets:[]};
 }
 const extension: Record<string,string>={"image/jpeg":"jpg","image/png":"png","image/webp":"webp","image/avif":"avif"};
-export async function stagePhotos(input: {birdId?:string;name:string;scientificName:string;family:string;capturedOn:string;location:string;caption:string;photos:{file:File;thumbnail:File;width:number;height:number}[]}) {
+export async function stagePhotos(input: {birdId?:string;name:string;scientificName:string;family:string;capturedOn:string;location:string;caption:string;photos:{file:File;thumbnail:File;width:number;height:number;details?:PhotoDetails;originalName?:string;originalSha256?:string}[]}) {
   return serialize(async()=>{
     if(!manageMode) throw Error("Open the photo manager to add photographs.");
     const current=await loadCatalogue();
@@ -71,17 +72,20 @@ export async function stagePhotos(input: {birdId?:string;name:string;scientificN
     else {
       const name=input.name.trim();
       if(!name) throw Error("Enter the bird's common name.");
-      if(current.birds.some(bird=>nameKey(bird.name)===nameKey(name))) throw Error("This bird already has an album. Open it and choose Add photos.");
+      if(current.birds.some(bird=>!bird.archivedAt&&nameKey(bird.name)===nameKey(name))) throw Error("This bird already has an album. Open it and choose Add photos.");
       const bird:Bird={id:crypto.randomUUID(),name,scientificName:input.scientificName.trim(),family:input.family.trim(),createdAt:new Date().toISOString(),coverPhotoId:null,photos:[]};
       change={bird,base:null,assets:[]};
     }
     if(!input.photos.length) throw Error("Select at least one photograph.");
     let firstId="";
+    const knownHashes=new Set(current.birds.flatMap(b=>b.photos.map(p=>p.originalSha256).filter(Boolean)));
     for(const item of input.photos) {
       const ext=extension[item.file.type];
       if(!ext||item.file.size>20*1024*1024||item.file.size===0) throw Error("Choose JPEG, PNG, WebP, or AVIF photographs up to 20 MB each.");
+      if(item.originalSha256&&knownHashes.has(item.originalSha256))throw Error(item.originalName+" is already in the collection or this batch.");
+      if(item.originalSha256)knownHashes.add(item.originalSha256);
       const id=crypto.randomUUID(),image=`images/${change.bird.id}/${id}.${ext}`,thumbnail=`images/${change.bird.id}/${id}-thumb.jpg`;
-      const photo:BirdPhoto={id,birdId:change.bird.id,width:item.width,height:item.height,originalName:item.file.name,capturedOn:input.capturedOn,location:input.location.trim(),caption:input.caption.trim(),createdAt:new Date().toISOString(),image,thumbnail};
+      const photo:BirdPhoto={id,birdId:change.bird.id,width:item.width,height:item.height,originalName:item.originalName||item.file.name,...(item.details||{capturedOn:input.capturedOn,location:input.location.trim(),caption:input.caption.trim()}),originalSha256:item.originalSha256,createdAt:new Date().toISOString(),image,thumbnail};
       change.bird.photos.push(photo);change.assets.push({path:image,blob:item.file},{path:thumbnail,blob:item.thumbnail});
       firstId ||= id;
       change.bird.coverPhotoId ||= id;
@@ -111,6 +115,8 @@ export async function stagePhotoDetails(birdId:string,photoId:string,details:Pho
     photo.capturedTime=details.capturedTime?.trim()||"";
     photo.captureOffset=details.captureOffset?.trim()||"";
     photo.location=details.location.trim();photo.caption=details.caption.trim();
+    if(Object.hasOwn(details,"gps"))photo.gps=details.gps;
+    if(Object.hasOwn(details,"identificationNote"))photo.identificationNote=details.identificationNote;
     const next=[...changes.filter(item=>item.bird.id!==birdId),change];
     mergeChanges(collection!,next);await writeDraft(next);
   });
@@ -128,3 +134,44 @@ export async function publishDraft(token: string,onProgress: (message:string)=>v
 export async function discardDraft() {
   return serialize(async()=>{if(!manageMode)throw Error("Open the photo manager first.");await writeDraft([]);});
 }
+
+
+function stageEdit(task:(edit:(id:string)=>Change,current:Catalogue)=>void){
+  return serialize(async()=>{
+    if(!manageMode)throw Error('Open the photo manager to edit the collection.');
+    const current=await loadCatalogue();
+    const draft=new Map(changes.map(c=>[c.bird.id,structuredClone(c)]));
+    const edit=(id:string)=>{let c=draft.get(id);if(!c){c=editingBird(id);draft.set(id,c);}return c;};
+    task(edit,current);const next=[...draft.values()];mergeChanges(collection!,next);await writeDraft(next);
+  });
+}
+export const stageAlbumDetails=(birdId:string,details:AlbumDetails)=>stageEdit(edit=>{
+  const b=edit(birdId).bird;Object.assign(b,{...details,name:details.name.trim(),scientificName:details.scientificName.trim(),family:details.family.trim()});
+});
+function resetCover(b:Bird){if(!b.photos.some(p=>p.id===b.coverPhotoId&&!p.trashedAt))b.coverPhotoId=b.photos.find(p=>!p.trashedAt)?.id||null;}
+function transfer(source:Change,target:Change,ids:Set<string>){
+  if(source.bird.id===target.bird.id)throw Error('Choose a different album.');
+  const moved=source.bird.photos.filter(p=>ids.has(p.id)),paths=new Set(moved.flatMap(p=>[p.image,p.thumbnail]));
+  const offset=target.bird.photos.reduce((n,p)=>Math.max(n,(p.sortOrder??target.bird.photos.indexOf(p))+1),0);
+  moved.forEach((p,i)=>{p.birdId=target.bird.id;p.sortOrder=offset+i;});
+  target.bird.photos.push(...moved);source.bird.photos=source.bird.photos.filter(p=>!ids.has(p.id));
+  target.assets.push(...source.assets.filter(a=>paths.has(a.path)));source.assets=source.assets.filter(a=>!paths.has(a.path));resetCover(source.bird);resetCover(target.bird);
+}
+export const stageMovePhoto=(fromId:string,toId:string,photoId:string)=>stageEdit(edit=>{
+  const source=edit(fromId),target=edit(toId);if(target.bird.archivedAt)throw Error('Restore the destination album first.');
+  if(!source.bird.photos.some(p=>p.id===photoId))throw Error('That photograph could not be found.');
+  transfer(source,target,new Set([photoId]));
+});
+export const stageMergeAlbum=(fromId:string,toId:string)=>stageEdit(edit=>{
+  const source=edit(fromId),target=edit(toId);if(target.bird.archivedAt)throw Error('Restore the destination album first.');
+  transfer(source,target,new Set(source.bird.photos.map(p=>p.id)));source.bird.archivedAt=new Date().toISOString();
+});
+export const stageAlbumArchive=(birdId:string,archived:boolean)=>stageEdit(edit=>{const b=edit(birdId).bird;b.archivedAt=archived?new Date().toISOString():undefined;});
+export const stagePhotoTrash=(birdId:string,photoId:string,trashed:boolean)=>stageEdit(edit=>{
+  const b=edit(birdId).bird,p=b.photos.find(p=>p.id===photoId);if(!p)throw Error('That photograph could not be found.');p.trashedAt=trashed?new Date().toISOString():undefined;resetCover(b);
+});
+export const stagePhotoOrder=(birdId:string,ids:string[])=>stageEdit(edit=>{
+  const b=edit(birdId).bird,active=b.photos.filter(p=>!p.trashedAt);
+  if(new Set(ids).size!==active.length||ids.length!==active.length||active.some(p=>!ids.includes(p.id)))throw Error('The album changed. Reopen it before reordering.');
+  for(const p of active)p.sortOrder=ids.indexOf(p.id);
+});

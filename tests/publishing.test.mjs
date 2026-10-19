@@ -108,3 +108,10 @@ test("missing originals prevent a catalogue-only publish",async()=>{
   await assert.rejects(publishChanges({token:"test-only-token",changes:[{base:null,bird:item,assets:[]}],fetcher:mock.fetcher}),/missing/);
   assert.equal(mock.calls.some(call=>call.path==="git/trees"),false);
 });
+
+
+test('publishing an album move reuses the existing immutable image files',async()=>{
+ const a=bird('bird-1','Chickadee',[photo('photo-1')]),b=bird('bird-2','Heron',[photo('photo-2','bird-2')]),remote=collection([a,b]),localA=structuredClone(a),localB=structuredClone(b),moved=localA.photos.shift();moved.birdId=b.id;localB.photos.push(moved);localA.coverPhotoId=null;
+ const mock=mockGitHub(remote);await publishChanges({token:'test-only-token',changes:[{base:a,bird:localA,assets:[]},{base:b,bird:localB,assets:[]}],fetcher:mock.fetcher});
+ assert.equal(mock.calls.filter(c=>c.path==='git/blobs').length,0);const tree=mock.calls.find(c=>c.path==='git/trees').body.tree;assert.deepEqual(tree.map(e=>e.path),['docs/birds.json']);const result=JSON.parse(tree[0].content);assert.equal(result.birds[1].photos[1].image,'images/bird-1/photo-1.jpg');assert.equal(result.birds.flatMap(b=>b.photos).length,2);
+});

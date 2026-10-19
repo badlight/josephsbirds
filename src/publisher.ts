@@ -50,7 +50,7 @@ export async function publishChanges(options: { token: string; changes: Change[]
         tree.push({path:`docs/${asset.path}`,mode:"100644",type:"blob",sha:blob.sha});
       }
       for(const photo of change.bird.photos.filter(photo=>!change.base?.photos.some(p=>p.id===photo.id))) {
-        if(!seen.has(photo.image)||!seen.has(photo.thumbnail)) throw Error("An original photograph or thumbnail is missing from this draft.");
+        if(!remote.birds.some(b=>b.photos.some(p=>p.id===photo.id))&&(!seen.has(photo.image)||!seen.has(photo.thumbnail))) throw Error("An original photograph or thumbnail is missing from this draft.");
       }
     }
     tree.push({path:"docs/birds.json",mode:"100644",type:"blob",content:JSON.stringify(catalogue,null,2)+"\n"});
@@ -61,3 +61,4 @@ export async function publishChanges(options: { token: string; changes: Change[]
     return {sha:newCommit.sha,catalogue};
   } finally {token="";}
 }
+
