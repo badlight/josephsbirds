@@ -342,7 +342,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/canada-goose/photo-848ab5f0ca266c56d9392008.jpg",
           "thumbnail": "images/canada-goose/photo-848ab5f0ca266c56d9392008-thumb.jpg",
-          "originalSha256": "848ab5f0ca266c56d939200888bb3016eadeef380c71e70da12fed273c33e201"
+          "originalSha256": "848ab5f0ca266c56d939200888bb3016eadeef380c71e70da12fed273c33e201",
+          "gps": {
+            "latitude": 45.374856,
+            "longitude": -75.795611,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-08780f6e29fad0d015e5b71c",
@@ -358,7 +363,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/canada-goose/photo-08780f6e29fad0d015e5b71c.jpg",
           "thumbnail": "images/canada-goose/photo-08780f6e29fad0d015e5b71c-thumb.jpg",
-          "originalSha256": "08780f6e29fad0d015e5b71c48eb08125bb17316413d514b9986583528b298a8"
+          "originalSha256": "08780f6e29fad0d015e5b71c48eb08125bb17316413d514b9986583528b298a8",
+          "gps": {
+            "latitude": 45.372444,
+            "longitude": -75.796577,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-0a002a2ca1ec6c22aba35b98",
@@ -374,7 +384,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/canada-goose/photo-0a002a2ca1ec6c22aba35b98.jpg",
           "thumbnail": "images/canada-goose/photo-0a002a2ca1ec6c22aba35b98-thumb.jpg",
-          "originalSha256": "0a002a2ca1ec6c22aba35b982e553d564385ab9db94d8c4e53f55f07e7bc86f5"
+          "originalSha256": "0a002a2ca1ec6c22aba35b982e553d564385ab9db94d8c4e53f55f07e7bc86f5",
+          "gps": {
+            "latitude": 45.318544,
+            "longitude": -75.613457,
+            "source": "manual"
+          }
         }
       ]
     },
