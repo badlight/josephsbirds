@@ -256,7 +256,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/black-crowned-night-heron/photo-c8cf8b868048fd9d55b05e8a.jpg",
           "thumbnail": "images/black-crowned-night-heron/photo-c8cf8b868048fd9d55b05e8a-thumb.jpg",
-          "originalSha256": "c8cf8b868048fd9d55b05e8a9c996ee20aea1df3493812b79d5c9f8863c3ea21"
+          "originalSha256": "c8cf8b868048fd9d55b05e8a9c996ee20aea1df3493812b79d5c9f8863c3ea21",
+          "gps": {
+            "latitude": 45.37201,
+            "longitude": -75.795922,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-3c08a4d43fea8aed10ec3aaa",
@@ -272,7 +277,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/black-crowned-night-heron/photo-3c08a4d43fea8aed10ec3aaa.jpg",
           "thumbnail": "images/black-crowned-night-heron/photo-3c08a4d43fea8aed10ec3aaa-thumb.jpg",
-          "originalSha256": "3c08a4d43fea8aed10ec3aaa1146baff5d8a9fc50b489cad6477868f5060dfd8"
+          "originalSha256": "3c08a4d43fea8aed10ec3aaa1146baff5d8a9fc50b489cad6477868f5060dfd8",
+          "gps": {
+            "latitude": 45.372432,
+            "longitude": -75.796523,
+            "source": "manual"
+          }
         }
       ]
     },
@@ -416,7 +426,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-f1a06c2a14d4db33aece0ef7.jpg",
           "thumbnail": "images/common-goldeneye/photo-f1a06c2a14d4db33aece0ef7-thumb.jpg",
-          "originalSha256": "f1a06c2a14d4db33aece0ef7935891490572698cc31421e29b2a7ef8377baeae"
+          "originalSha256": "f1a06c2a14d4db33aece0ef7935891490572698cc31421e29b2a7ef8377baeae",
+          "gps": {
+            "latitude": 45.37412,
+            "longitude": -75.797725,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-1e12613008b0115386cf6bb3",
@@ -432,7 +447,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-1e12613008b0115386cf6bb3.jpg",
           "thumbnail": "images/common-goldeneye/photo-1e12613008b0115386cf6bb3-thumb.jpg",
-          "originalSha256": "1e12613008b0115386cf6bb36aeb3fef27c1799c9ef4f52ae9a891cbba3f0cb6"
+          "originalSha256": "1e12613008b0115386cf6bb36aeb3fef27c1799c9ef4f52ae9a891cbba3f0cb6",
+          "gps": {
+            "latitude": 45.374301,
+            "longitude": -75.797725,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-edca6a2c408e9e24d82e4147",
@@ -448,7 +468,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-edca6a2c408e9e24d82e4147.jpg",
           "thumbnail": "images/common-goldeneye/photo-edca6a2c408e9e24d82e4147-thumb.jpg",
-          "originalSha256": "edca6a2c408e9e24d82e41472e487bee93427850dc9233281af6a068ee7bbad9"
+          "originalSha256": "edca6a2c408e9e24d82e41472e487bee93427850dc9233281af6a068ee7bbad9",
+          "gps": {
+            "latitude": 45.37412,
+            "longitude": -75.797381,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-c367b92112412b8b3c631460",
@@ -464,7 +489,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-c367b92112412b8b3c631460.jpg",
           "thumbnail": "images/common-goldeneye/photo-c367b92112412b8b3c631460-thumb.jpg",
-          "originalSha256": "c367b92112412b8b3c6314609eff469c4acd95608cfc42b25004f332ae356ae6"
+          "originalSha256": "c367b92112412b8b3c6314609eff469c4acd95608cfc42b25004f332ae356ae6",
+          "gps": {
+            "latitude": 45.37412,
+            "longitude": -75.797381,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-dcaddb36bee42248fa3b09d2",
@@ -480,7 +510,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-dcaddb36bee42248fa3b09d2.jpg",
           "thumbnail": "images/common-goldeneye/photo-dcaddb36bee42248fa3b09d2-thumb.jpg",
-          "originalSha256": "dcaddb36bee42248fa3b09d231c7b2bfd538e039808e37104f96b5177daab805"
+          "originalSha256": "dcaddb36bee42248fa3b09d231c7b2bfd538e039808e37104f96b5177daab805",
+          "gps": {
+            "latitude": 45.374361,
+            "longitude": -75.797124,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-22261c3032ef2c161cee8f5a",
@@ -496,7 +531,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-22261c3032ef2c161cee8f5a.jpg",
           "thumbnail": "images/common-goldeneye/photo-22261c3032ef2c161cee8f5a-thumb.jpg",
-          "originalSha256": "22261c3032ef2c161cee8f5a6ff7070b0728c1f26a752b9ef669392ae183bac4"
+          "originalSha256": "22261c3032ef2c161cee8f5a6ff7070b0728c1f26a752b9ef669392ae183bac4",
+          "gps": {
+            "latitude": 45.374542,
+            "longitude": -75.796523,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-0a5b59beccb93d582e30014d",
@@ -512,7 +552,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-0a5b59beccb93d582e30014d.jpg",
           "thumbnail": "images/common-goldeneye/photo-0a5b59beccb93d582e30014d-thumb.jpg",
-          "originalSha256": "0a5b59beccb93d582e30014dc52c343e55b2fd13c06681fd76657b1a32d775dc"
+          "originalSha256": "0a5b59beccb93d582e30014dc52c343e55b2fd13c06681fd76657b1a32d775dc",
+          "gps": {
+            "latitude": 45.374723,
+            "longitude": -75.796781,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-0d9761e849001fce673a5e3c",
@@ -528,7 +573,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/common-goldeneye/photo-0d9761e849001fce673a5e3c.jpg",
           "thumbnail": "images/common-goldeneye/photo-0d9761e849001fce673a5e3c-thumb.jpg",
-          "originalSha256": "0d9761e849001fce673a5e3caa67026f4b69afba7bfab20478a2133e7d02177e"
+          "originalSha256": "0d9761e849001fce673a5e3caa67026f4b69afba7bfab20478a2133e7d02177e",
+          "gps": {
+            "latitude": 45.374482,
+            "longitude": -75.797124,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-8419d23066c0d628ec4baeaa",
