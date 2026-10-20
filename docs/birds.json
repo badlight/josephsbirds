@@ -24,7 +24,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/american-robin/photo-044f98c36fdbfe386f6a022c.jpg",
           "thumbnail": "images/american-robin/photo-044f98c36fdbfe386f6a022c-thumb.jpg",
-          "originalSha256": "044f98c36fdbfe386f6a022cdedb6906664c12f3adae4036e7b39d553dd2f0f1"
+          "originalSha256": "044f98c36fdbfe386f6a022cdedb6906664c12f3adae4036e7b39d553dd2f0f1",
+          "gps": {
+            "latitude": 45.373967,
+            "longitude": -75.796276,
+            "source": "manual"
+          }
         }
       ]
     },
@@ -2449,12 +2454,17 @@
           "capturedOn": "2024-06-17",
           "capturedTime": "17:14:42",
           "captureOffset": "-05:00",
-          "location": "",
+          "location": "Mud Lake, Ontario, Canada",
           "caption": "",
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-shoveler/photo-a05a5297c7d739cb73e399dd.jpg",
           "thumbnail": "images/northern-shoveler/photo-a05a5297c7d739cb73e399dd-thumb.jpg",
-          "originalSha256": "a05a5297c7d739cb73e399dd1fb8ffcea1cf34b558ffe12b6ea2dd85cc891e6c"
+          "originalSha256": "a05a5297c7d739cb73e399dd1fb8ffcea1cf34b558ffe12b6ea2dd85cc891e6c",
+          "gps": {
+            "latitude": 45.373523,
+            "longitude": -75.795595,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-60a31e1afbc1847636388ce3",
@@ -2470,7 +2480,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-shoveler/photo-60a31e1afbc1847636388ce3.jpg",
           "thumbnail": "images/northern-shoveler/photo-60a31e1afbc1847636388ce3-thumb.jpg",
-          "originalSha256": "60a31e1afbc1847636388ce310440d5f75b92a9f198396ad0d3d43768bad7c82"
+          "originalSha256": "60a31e1afbc1847636388ce310440d5f75b92a9f198396ad0d3d43768bad7c82",
+          "gps": {
+            "latitude": 45.37356,
+            "longitude": -75.795611,
+            "source": "manual"
+          }
         },
         {
           "id": "photo-518e398e4dc58a42c4e053f9",
@@ -2486,7 +2501,12 @@
           "createdAt": "2026-10-10T23:00:00Z",
           "image": "images/northern-shoveler/photo-518e398e4dc58a42c4e053f9.jpg",
           "thumbnail": "images/northern-shoveler/photo-518e398e4dc58a42c4e053f9-thumb.jpg",
-          "originalSha256": "518e398e4dc58a42c4e053f96fff04e568c693f25596b935216fa2b974616a9c"
+          "originalSha256": "518e398e4dc58a42c4e053f96fff04e568c693f25596b935216fa2b974616a9c",
+          "gps": {
+            "latitude": 45.373515,
+            "longitude": -75.795676,
+            "source": "manual"
+          }
         }
       ]
     },
