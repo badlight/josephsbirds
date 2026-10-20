@@ -20,6 +20,7 @@ export function validateCollection(value:unknown):asserts value is Collection {
       if(!idOK(p.id)||photoIds.has(p.id)||p.birdId!==b.id||!Number.isInteger(p.width)||p.width<1||!Number.isInteger(p.height)||p.height<1||!fieldOK(p.originalName,255)||!fieldOK(p.caption,600)||!fieldOK(p.location,160)||!fieldOK(p.capturedOn,10)||!fieldOK(p.createdAt,40))throw Error('The catalogue contains an invalid photograph.');
       if(p.capturedOn&&(!/^\d{4}-\d{2}-\d{2}$/.test(p.capturedOn)||new Date(p.capturedOn+'T12:00:00Z').toISOString().slice(0,10)!==p.capturedOn))throw Error('Choose a valid date for the photograph.');
       if(p.capturedTime!==undefined&&(!fieldOK(p.capturedTime,8)||(p.capturedTime&&!/^(?:[01]\d|2[0-3]):[0-5]\d(?::[0-5]\d)?$/.test(p.capturedTime))))throw Error('Choose a valid time for the photograph.');
+      if((p.favourite!==undefined&&typeof p.favourite!=='boolean')||(p.trip!==undefined&&!fieldOK(p.trip,100)))throw Error('The photograph has invalid highlight or outing details.');
       if(p.captureOffset!==undefined&&(!fieldOK(p.captureOffset,6)||(p.captureOffset&&!/^[+-](?:0\d|1[0-4]):[0-5]\d$/.test(p.captureOffset))))throw Error('The photograph has an invalid camera time offset.');
       if((p.gps!==undefined&&!validGPS(p.gps))||(p.identificationNote!==undefined&&!fieldOK(p.identificationNote,600))||!stampOK(p.trashedAt)||(p.sortOrder!==undefined&&(!Number.isFinite(p.sortOrder)||p.sortOrder<0))||(p.originalSha256!==undefined&&!/^[a-f0-9]{64}$/.test(p.originalSha256)))throw Error('The photograph has invalid location or management details.');
       photoIds.add(p.id);
@@ -31,10 +32,10 @@ export function validateCollection(value:unknown):asserts value is Collection {
     if(b.coverPhotoId!==null&&!b.photos.some(p=>p.id===b.coverPhotoId))throw Error('The album cover must belong to this bird.');
   }
 }
-export const editablePhotoFields=['capturedOn','capturedTime','captureOffset','location','caption','gps','identificationNote','sortOrder','trashedAt'] as const;
+export const editablePhotoFields=['capturedOn','capturedTime','captureOffset','location','caption','gps','identificationNote','sortOrder','trashedAt','favourite','trip'] as const;
 const albumFields=['name','scientificName','family','kind','identificationNote','archivedAt'] as const;
 const immutablePhotoFields=['id','width','height','originalName','createdAt','image','thumbnail','originalSha256'] as const;
-function same(key:string,a:unknown,b:unknown){const norm=(v:unknown)=>key==='kind'?(v||'bird'):key==='gps'||key==='sortOrder'?(v??null):(v??'');return JSON.stringify(norm(a))===JSON.stringify(norm(b));}
+function same(key:string,a:unknown,b:unknown){const norm=(v:unknown)=>key==='kind'?(v||'bird'):key==='favourite'?(v===true):key==='gps'||key==='sortOrder'?(v??null):(v??'');return JSON.stringify(norm(a))===JSON.stringify(norm(b));}
 
 // Resolve photo ownership across the entire batch before applying any moves.
 // Images keep their original, immutable paths when moving between albums.

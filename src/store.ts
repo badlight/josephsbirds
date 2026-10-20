@@ -117,6 +117,7 @@ export async function stagePhotoDetails(birdId:string,photoId:string,details:Pho
     photo.location=details.location.trim();photo.caption=details.caption.trim();
     if(Object.hasOwn(details,"gps"))photo.gps=details.gps;
     if(Object.hasOwn(details,"identificationNote"))photo.identificationNote=details.identificationNote;
+    if(Object.hasOwn(details,"trip"))photo.trip=details.trip?.trim()||'';
     const next=[...changes.filter(item=>item.bird.id!==birdId),change];
     mergeChanges(collection!,next);await writeDraft(next);
   });
@@ -175,3 +176,23 @@ export const stagePhotoOrder=(birdId:string,ids:string[])=>stageEdit(edit=>{
   if(new Set(ids).size!==active.length||ids.length!==active.length||active.some(p=>!ids.includes(p.id)))throw Error('The album changed. Reopen it before reordering.');
   for(const p of active)p.sortOrder=ids.indexOf(p.id);
 });
+
+export type PhotoSelection={birdId:string;photoId:string};
+export type BulkPhotoPatch=Partial<Pick<BirdPhoto,'location'|'caption'|'gps'|'trip'|'favourite'>>;
+export const stageBatchPhotoEdits=(selection:PhotoSelection[],patch:BulkPhotoPatch,targetAlbumId?:string,fillOnly=false)=>stageEdit((edit,current)=>{
+  if(!selection.length)throw Error('Select at least one photograph.');
+  const keys=Object.keys(patch);if(keys.some(k=>!['location','caption','gps','trip','favourite'].includes(k)))throw Error('That field cannot be edited in a batch.');
+  if(!keys.length&&!targetAlbumId)throw Error('Choose at least one change to apply.');
+  const seen=new Set<string>(),moves=new Map<string,Set<string>>();
+  const target=targetAlbumId?edit(targetAlbumId):undefined;
+  if(target?.bird.archivedAt)throw Error('Restore the destination album first.');
+  for(const item of selection){
+    if(seen.has(item.photoId))throw Error('The same photograph was selected twice.');seen.add(item.photoId);
+    const source=edit(item.birdId),p=source.bird.photos.find(p=>p.id===item.photoId);
+    if(!p||p.trashedAt||source.bird.archivedAt||!current.birds.some(b=>b.id===item.birdId))throw Error('A selected photograph changed. Refresh the contact sheet and select it again.');
+    for(const key of keys as (keyof BulkPhotoPatch)[]){if(fillOnly&&p[key]!==undefined&&p[key]!=='')continue;Object.assign(p,{[key]:structuredClone(patch[key])});}
+    if(target&&target.bird.id!==source.bird.id){const ids=moves.get(source.bird.id)||new Set<string>();ids.add(p.id);moves.set(source.bird.id,ids);}
+  }
+  if(target)for(const [sourceId,ids] of moves)transfer(edit(sourceId),target,ids);
+});
+export const stageFavourite=(birdId:string,photoId:string,favourite:boolean)=>stageBatchPhotoEdits([{birdId,photoId}],{favourite});

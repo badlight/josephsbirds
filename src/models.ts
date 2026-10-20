@@ -4,6 +4,7 @@ export type BirdPhoto = {
   originalName: string; capturedOn: string; location: string; caption: string;
   capturedTime?: string; captureOffset?: string; identificationNote?: string;
   gps?:GPSLocation; originalSha256?:string; sortOrder?:number; trashedAt?:string;
+  favourite?:boolean; trip?:string;
   createdAt: string; image: string; thumbnail: string;
 };
 export type Bird = {
@@ -16,7 +17,7 @@ export type Collection = { version: 1; birds: Bird[] };
 export type Catalogue = Collection & { canManage: boolean; draftCount: number; pendingPhotoIds?:string[]; pendingAlbumIds?:string[] };
 export type Asset = { path: string; blob: Blob };
 export type Change = { bird: Bird; base: Bird | null; assets: Asset[] };
-export type PhotoDetails = Pick<BirdPhoto,"capturedOn" | "capturedTime" | "captureOffset" | "location" | "caption" | "gps" | "identificationNote">;
+export type PhotoDetails = Pick<BirdPhoto,"capturedOn" | "capturedTime" | "captureOffset" | "location" | "caption" | "gps" | "identificationNote" | "trip">;
 export type AlbumDetails = Pick<Bird,"name"|"scientificName"|"family"|"kind"|"identificationNote">;
 export type PreparedPhoto = {file:File;thumbnail:File;width:number;height:number;originalName:string;originalSha256:string;details:PhotoDetails};
 

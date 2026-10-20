@@ -62,3 +62,13 @@ Tests cover catalogue validation, merging concurrent changes, image publication,
 
 `imports/2026-10-10/` records the reviewed species grouping, original filenames and hashes, individual camera timestamps, generated asset hashes, and verified counts. Camera serial numbers and raw EXIF/XMP are excluded from public records. `scripts/import_photos.py` recreates the web copies from the local deduplicated inventory and originals (requires Python and Pillow). Run it in a separate workspace with an empty catalogue; it refuses to replace existing records. It verifies all 177 originals by SHA-256 and does not modify them.
 
+
+## Collection views and photo workflow
+
+- **Contact sheet** (photo manager): select photos across filtered views and apply checked location, caption, outing, GPS, favourite, or album changes as one atomic draft. Camera dates/times and original image paths are preserved. Fill-blanks-only keeps recorded values. The selection and unfinished batch form survive reloads in this browser.
+- **Photo details**: unfinished fields autosave locally, separately from the publish queue. Reopening restores the form; same-field changes since the form was started require review. Save to draft queues the edit for publication. Discard unfinished edits resets only that photo's form.
+- **Saved shooting locations**: named GPS pins are private to the browser. Choose a saved place to apply its label and coordinates to a photo, a batch, or importer fallback fields. Applying a location to photos makes it public when the draft is published.
+- **Highlights**: mark favourites in the photo viewer or contact sheet, then publish the draft. The public Highlights view shows those photographs separately from the albums.
+- **Journal**: first/last photographed dates, annual photographed-species totals, and outings. Set the same outing/trip name on multiple photos to group a trip across dates. Unnamed outings group by camera date and location label. Non-bird wildlife appears in outings but is excluded from photographed bird-species totals. Gallery filters apply to journal statistics.
+
+Existing catalogue version 1 remains supported. `favourite` (boolean) and `trip` (up to 100 characters) are optional per-photo fields. Both use the existing conflict-aware publication and draft storage flow. Unfinished forms and saved places are browser-local; staged photo metadata reaches GitHub only through Publish draft.

@@ -8,7 +8,7 @@ export function browseBirds(catalogue:Catalogue,f:BrowseFilters):Bird[]{
   const result=catalogue.birds.filter(b=>trash?(!!b.archivedAt||b.photos.some(p=>p.trashedAt)):!b.archivedAt).filter(b=>(!f.kind||(b.kind||'bird')===f.kind)&&(!f.family||b.family===f.family)).flatMap(b=>{
     const albumMatches=[b.name,b.scientificName,b.family].some(v=>text(v).includes(q));
     const photos=b.photos.filter(p=>trash?(b.archivedAt||p.trashedAt):!p.trashedAt).filter(p=>
-      (!q||albumMatches||[p.originalName,p.location,p.caption,p.capturedOn].some(v=>text(v).includes(q)))&&
+      (!q||albumMatches||[p.originalName,p.location,p.caption,p.capturedOn,p.trip||''].some(v=>text(v).includes(q)))&&
       (!f.year||p.capturedOn.startsWith(f.year+'-'))&&(!loc||text(p.location).includes(loc))&&
       (!catalogue.canManage||!f.status||f.status==='trash'||
         (f.status==='pending'&&(pending.has(p.id)||pendingAlbums.has(b.id)))||
